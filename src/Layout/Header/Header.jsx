@@ -1,12 +1,15 @@
 import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
+import profile from "../../assets/g7.jpg";
 const Header = () => {
   return (
-    <>
-      <nav className="navbar navbar-expand-lg">
-        <div className="container-fluid">
-          <div className="profile_div"></div>
+    <div className="nav_bar_bg">
+      <nav className="container_width navbar navbar-expand-lg">
+        <div className=" container-fluid">
+          <div className="profile_div">
+            <img src={profile} alt="" srcset="" />
+          </div>
           <a className="navbar-brand" href="#">
             Uzox Bot
           </a>
@@ -24,7 +27,12 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarText">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+                <Link
+                  className="nav-link active"
+                  style={{ fontWeight: 400 }}
+                  aria-current="page"
+                  to="/"
+                >
                   Home
                 </Link>
               </li>
@@ -57,7 +65,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 

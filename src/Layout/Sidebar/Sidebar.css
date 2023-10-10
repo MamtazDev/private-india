@@ -1,0 +1,121 @@
+.nav-option {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 10px;
+    width: 250px;
+
+}
+
+.sidebar-container {
+    height: 100vh !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.sidebar_content {
+    /* background: rgba(0, 0, 0, 0.05); */
+
+    width: 250px;
+}
+
+.nav_notCollapse {
+    background-color: #17222D;
+    color: #fff !important;
+}
+
+.sidebar-container::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar_profile img {
+    width: 155px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.sidebar_profile {
+    margin: auto;
+    text-align: center;
+}
+
+.sidebar_profile p {
+    font-size: 16.548px !important;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.nav-option {
+    padding: 16px 20px;
+}
+
+.largeDeviceIcon {
+    text-align: end;
+    padding: 15px;
+}
+
+
+/* 768 theke sull width e kaj hbe */
+@media (min-width:768px) {
+    .navCollapse {
+        width: 80px;
+        background-color: #17222D;
+        color: #fff;
+    }
+
+    .collapse_largeDeviceIcon {
+        text-align: center;
+        margin: 20px;
+    }
+
+    .navCollapse .nav-option h6 {
+        display: none;
+    }
+
+    .sidebar_profile {
+        display: block;
+
+    }
+
+    .sidebar_collapse_profile img {
+        width: 60px !important;
+        height: 60px;
+        border-radius: 50%;
+        margin: 10px 0px;
+
+    }
+
+    .sidebar_collapse_profile div {
+        text-align: center;
+
+    }
+
+    .smallDeviceIcon {
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+    .sidebar_content {
+        width: 80px;
+    }
+
+    .largeDeviceIcon {
+        display: none;
+    }
+
+    .sidebar-container {
+        display: none;
+    }
+
+    .smallNav {
+        display: block;
+    }
+
+    .sidebar_profile {
+        display: none;
+    }
+
+}
