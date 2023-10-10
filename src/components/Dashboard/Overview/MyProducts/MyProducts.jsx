@@ -7,8 +7,12 @@ const MyProducts = () => {
         <p>My Products</p>
       </div>
       <div className="text-center">
-        <button className="btn btn_secondary me-2">Server</button>
-        <button className="btn btn_secondary me-2">Personal</button>
+        <button type="button" className="btn btn_secondary me-2">
+          Server
+        </button>
+        <button type="button" className="btn btn_secondary me-2">
+          Personal
+        </button>
       </div>
     </>
   );
