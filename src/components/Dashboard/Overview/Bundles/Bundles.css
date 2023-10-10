@@ -1,6 +1,7 @@
 .product_img img {
     width: 131px !important;
     height: 140px !important;
+    object-fit: cover;
 }
 
 .card {
@@ -22,7 +23,6 @@
     font-weight: 700 !important;
     font-size: 20px;
 }
-
 .small_header {
     color: #000;
     font-family: Roboto;
