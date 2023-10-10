@@ -1,4 +1,4 @@
-.profile_div img{
+.profile_div img {
     width: 40px;
     height: 40px;
     border-radius: 100px;
@@ -7,13 +7,18 @@
 
 .navbar {
     padding: 20px;
+
 }
 
 .nav_bar_bg {
     background: #FFF;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
-
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
 }
+
 
 .navbar-brand {
     color: #000;

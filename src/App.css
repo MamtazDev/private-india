@@ -37,7 +37,8 @@ button:focus-visible {
   border: none !important;
   outline: none !important;
 }
-button:focus{
+
+button:focus {
   border: none !important;
   outline: none !important;
 }
@@ -49,6 +50,8 @@ a {
 
 .overview_container {
   margin: 0 auto;
+
+  margin-top: 100px;
 }
 
 /* responsive */

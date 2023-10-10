@@ -8,8 +8,8 @@
 
 .sidebar-container {
     height: 100vh !important;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    position: fixed;
+    top: 9%;
 }
 
 .sidebar_content {
@@ -106,9 +106,10 @@
 }
 
 @media (max-width:767px) {
-    .sidebar_collapse_profile{
-text-align: center;
+    .sidebar_collapse_profile {
+        text-align: center;
     }
+
     .collapse_largeDeviceIcon {
         display: none;
     }
@@ -135,6 +136,9 @@ text-align: center;
 
     .sidebar_content {
         width: 80px;
+        height: 100vh !important;
+        z-index: 100000000000000000000000000;
+        position: relative;
     }
 
     .smallDeviceIcon {

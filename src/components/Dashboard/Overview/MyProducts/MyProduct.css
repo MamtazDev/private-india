@@ -12,8 +12,28 @@
     max-width: 150px !important;
     width: 100% !important;
 }
-.btn_secondary:hover{
+
+.btn_secondary:hover {
     background-color: #000;
     color: white;
     transition: ease-in 0.5s;
+}
+
+@media (max-width:768px) {
+    .server_title p {
+        font-size: 30px !important;
+        margin-bottom: 20px;
+    }
+
+    .small_header {
+        font-size: 30px !important;
+    }
+
+    .btn_secondary {
+        margin-bottom: 15px !important;
+    }
+
+    .small_footer {
+        font-size: 30px !important;
+    }
 }
