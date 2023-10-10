@@ -56,7 +56,7 @@ const Sidebar2 = () => {
               <i class="fa-solid fa-music"></i>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
-              Overview
+              <Link to="/overview">Overview</Link>
             </h6>
           </div>
           <div className="nav-option option1">
@@ -96,7 +96,7 @@ const Sidebar2 = () => {
               <img src={icon4} alt="" />
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
-              Favourites
+              <Link to="/favourites">Favourites</Link>
             </h6>
           </div>
         </div>
