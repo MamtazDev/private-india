@@ -4,7 +4,6 @@
     padding: 0px 20px;
     gap: 10px;
     width: 250px;
-
 }
 
 .sidebar-container {
@@ -14,8 +13,6 @@
 }
 
 .sidebar_content {
-    /* background: rgba(0, 0, 0, 0.05); */
-
     width: 250px;
 }
 
@@ -54,6 +51,13 @@
 .largeDeviceIcon {
     text-align: end;
     padding: 15px;
+}
+
+.nav-option:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: ease-in 0.3s;
 }
 
 
@@ -95,27 +99,76 @@
     .smallDeviceIcon {
         display: none;
     }
+
+    .collapse_smalll {
+        display: none;
+    }
 }
 
 @media (max-width:767px) {
+    .sidebar_collapse_profile{
+text-align: center;
+    }
+    .collapse_largeDeviceIcon {
+        display: none;
+    }
+
+    .navCollapse {
+        width: 80px;
+        background-color: #17222D;
+        color: #fff;
+    }
+
+    .nav-option {
+        width: auto;
+        margin: auto;
+    }
+
+    .d_block {
+        display: block;
+    }
+
+    .d_none {
+        display: none;
+
+    }
+
     .sidebar_content {
         width: 80px;
+    }
+
+    .smallDeviceIcon {
+        text-align: end;
+        padding: 15px;
+    }
+
+    .collapse_smalll {
+        text-align: center;
+        padding: 15px;
     }
 
     .largeDeviceIcon {
         display: none;
     }
 
-    .sidebar-container {
-        display: none;
-    }
-
     .smallNav {
         display: block;
+        width: 250px;
     }
 
-    .sidebar_profile {
-        display: none;
+
+    .sidebar_profile img {
+        width: 60px;
+        height: 60px;
     }
+
+    .sidebar_collapse_profile img {
+        width: 60px !important;
+        height: 60px;
+        border-radius: 50%;
+        margin: 10px 0px;
+
+    }
+
 
 }

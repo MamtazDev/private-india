@@ -19,7 +19,6 @@ p {
 
 body {
   font-family: 'Roboto' !important;
-  /* color: #000 !important; */
 }
 
 .container_width {
@@ -29,10 +28,10 @@ body {
 }
 
 button,
-a {
+a,
+i {
   cursor: pointer;
 }
-
 
 /* responsive */
 @media(max-width:767px) {

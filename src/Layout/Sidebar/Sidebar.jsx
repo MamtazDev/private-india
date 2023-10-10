@@ -19,18 +19,25 @@ const Sidebar = () => {
           <div className="logo">
             <div
               onClick={(e) => setSideCollapse(!sideCollapse)}
-            //   className="largeDeviceIcon"
-             className={` ${
+              className={` ${
                 sideCollapse ? "collapse_largeDeviceIcon" : "largeDeviceIcon"
               }`}
             >
-              <i class="fa-solid fa-bars"></i>
+              {sideCollapse ? (
+                <i class="fa-solid fa-bars"></i>
+              ) : (
+                <i class="fa-solid fa-xmark"></i>
+              )}
             </div>
             <div
               onClick={(e) => setSmallSideCollapse(!smallSideCollapse)}
-              className="smallDeviceIcon"
+              className={`${smallSideCollapse ? "smallDeviceIcon" :"collapse_smalll"}`}
             >
-              small bars
+              {smallSideCollapse ? (
+                  <i class="fa-solid fa-xmark"></i>
+                  ) : (
+                  <i class="fa-solid fa-bars"></i>
+              )}
             </div>
           </div>
           {/* profile div */}
@@ -46,28 +53,28 @@ const Sidebar = () => {
             <hr />
           </div>
           <div className="nav-option option1">
-            <p>
+            <p >
               <i class="fa-solid fa-user"></i>
             </p>
-            <h6>Personal Config</h6>
+            <h6 className={smallSideCollapse? "d_block":"d_none"}>Personal Config</h6>
           </div>
           <div className="nav-option option1">
             <p>
               <i class="fa-solid fa-server"></i>
             </p>
-            <h6>Servers List</h6>
+            <h6 className={smallSideCollapse? "d_block":"d_none"}>Servers List</h6>
           </div>
           <div className="nav-option option1">
             <p>
               <i class="fa-brands fa-product-hunt"></i>
             </p>
-            <h6>My Products</h6>
+            <h6 className={smallSideCollapse? "d_block":"d_none"}>My Products</h6>
           </div>
           <div className="nav-option option1">
             <p>
               <i class="fa-solid fa-money-bill"></i>
             </p>
-            <h6>Billing</h6>
+            <h6 className={smallSideCollapse? "d_block":"d_none"}>Billing</h6>
           </div>
         </div>
       </div>
