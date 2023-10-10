@@ -1,0 +1,43 @@
+.server_content img {
+    width: 155px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center !important;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+.serverlist {
+    display: flex;
+    gap: 40px;
+    margin: 30px auto;
+    flex-wrap: wrap;
+}
+
+.server_content {
+    background: #FFF;
+    height: fit-content;
+    padding: 17px;
+    text-align: center;
+}
+
+.server_content {
+    font-weight: 500 !important;
+}
+
+.server_title p {
+    display: block;
+    color: #000;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.server_page {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}

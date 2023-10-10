@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Sidebar.css";
 import profile from "../../assets/g7.jpg";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   const [sideCollapse, setSideCollapse] = useState(false);
@@ -31,12 +32,14 @@ const Sidebar = () => {
             </div>
             <div
               onClick={(e) => setSmallSideCollapse(!smallSideCollapse)}
-              className={`${smallSideCollapse ? "smallDeviceIcon" :"collapse_smalll"}`}
+              className={`${
+                smallSideCollapse ? "smallDeviceIcon" : "collapse_smalll"
+              }`}
             >
               {smallSideCollapse ? (
-                  <i class="fa-solid fa-xmark"></i>
-                  ) : (
-                  <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark"></i>
+              ) : (
+                <i class="fa-solid fa-bars"></i>
               )}
             </div>
           </div>
@@ -53,28 +56,36 @@ const Sidebar = () => {
             <hr />
           </div>
           <div className="nav-option option1">
-            <p >
+            <p>
               <i class="fa-solid fa-user"></i>
             </p>
-            <h6 className={smallSideCollapse? "d_block":"d_none"}>Personal Config</h6>
+            <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
+              Personal Config
+            </h6>
           </div>
           <div className="nav-option option1">
             <p>
               <i class="fa-solid fa-server"></i>
             </p>
-            <h6 className={smallSideCollapse? "d_block":"d_none"}>Servers List</h6>
+            <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
+              <Link to="/serverlist">Servers List</Link>
+            </h6>
           </div>
           <div className="nav-option option1">
             <p>
               <i class="fa-brands fa-product-hunt"></i>
             </p>
-            <h6 className={smallSideCollapse? "d_block":"d_none"}>My Products</h6>
+            <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
+              My Products
+            </h6>
           </div>
           <div className="nav-option option1">
             <p>
               <i class="fa-solid fa-money-bill"></i>
             </p>
-            <h6 className={smallSideCollapse? "d_block":"d_none"}>Billing</h6>
+            <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
+              Billing
+            </h6>
           </div>
         </div>
       </div>

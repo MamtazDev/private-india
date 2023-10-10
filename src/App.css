@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@700&family=Staatliches&family=Work+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@700&family=Staatliches&family=Work+Sans&display=swap'); */
 
 
 * {
@@ -31,6 +31,24 @@ button,
 a,
 i {
   cursor: pointer;
+}
+
+button:focus-visible {
+  border: none !important;
+  outline: none !important;
+}
+button:focus{
+  border: none !important;
+  outline: none !important;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.overview_container {
+  margin: 0 auto;
 }
 
 /* responsive */
