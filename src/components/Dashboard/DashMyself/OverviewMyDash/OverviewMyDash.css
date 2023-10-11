@@ -76,6 +76,11 @@
         align-items: center;
         justify-content: center;
     }
+    .outlet_container1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
     .saved_queue_container {
         flex-direction: column-reverse;

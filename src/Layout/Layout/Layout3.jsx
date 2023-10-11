@@ -13,7 +13,7 @@ const Layout3 = () => {
         <div className="w-full">
           <Sidebar3 />
         </div>
-        <Outlet className="w-full" />
+        <Outlet className="w-full outlet_height" />
       </div>
     </div>
   );

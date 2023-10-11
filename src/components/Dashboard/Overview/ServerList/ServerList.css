@@ -7,7 +7,6 @@
     margin-bottom: 10px;
 
 }
-
 .serverlist {
     display: flex;
     gap: 40px;
@@ -41,4 +40,5 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    margin-top: 100px;
 }

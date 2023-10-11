@@ -60,7 +60,7 @@ const Sidebar = () => {
               <i class="fa-solid fa-user"></i>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
-              Personal Config
+              <Link to="/dashboard/overview"> Personal Config</Link>
             </h6>
           </div>
           <div className="nav-option option1">

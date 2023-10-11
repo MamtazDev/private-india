@@ -117,8 +117,19 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+.outlet_height{
+  overflow-y: scroll !important;
+}
 /* responsive */
 @media(max-width:767px) {
+  .outlet_height{
+    overflow-y: scroll !important;
+  }
+  
+  .sidebar-container {
+    top: 11% !important;
+}
+
   .nav-item a {
     text-align: center;
   }
@@ -130,6 +141,9 @@ input:checked + .slider:before {
 }
 
 @media(max-width:992px) {
+  .outlet_height{
+    overflow-y: scroll !important;
+  }
 
   /* navbar */
   .nav-item a {

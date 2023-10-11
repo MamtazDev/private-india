@@ -12,7 +12,7 @@ const Layout2 = () => {
         <div className="w-full">
           <Sidebar2 />
         </div>
-        <Outlet className="w-full" />
+        <Outlet className="w-full outlet_height" />
       </div>
     </div>
   );

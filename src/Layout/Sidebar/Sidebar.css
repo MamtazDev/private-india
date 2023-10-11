@@ -63,6 +63,7 @@
 
 /* 768 theke sull width e kaj hbe */
 @media (min-width:768px) {
+
     .navCollapse {
         width: 80px;
         background-color: #17222D;
@@ -71,7 +72,7 @@
 
     .collapse_largeDeviceIcon {
         text-align: center;
-        margin: 20px;
+        margin-top: 30px;
     }
 
     .navCollapse .nav-option h6 {
