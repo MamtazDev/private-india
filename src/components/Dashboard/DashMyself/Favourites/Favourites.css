@@ -1,6 +1,7 @@
 .favourites_container {
     display: flex;
     justify-content: center !important;
+    flex-direction: column;
     align-items: center;
     margin: auto;
     margin-top: 160px !important
@@ -8,6 +9,12 @@
 
 .fav_header {
     text-align: center;
+    margin-bottom: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .fav_header h3 {
@@ -35,14 +42,59 @@
     border: 1px solid rgba(0, 0, 0, 0.10);
     background: #FFF;
     padding: 8px 12px;
-    max-width: 360px;
-    width: 100%;
+    max-width: 360px !important;
+    width: 100% !important;
 
+}
+
+.name_input {
+    max-width: 500px !important;
+    width: 100% !important;
 }
 
 input:focus {
-    border-color:rgba(0, 0, 0, 0.10) !important;
+    border-color: rgba(0, 0, 0, 0.10) !important;
 }
+
 input:focus-visible {
-    border-color:rgba(0, 0, 0, 0.10) !important;
+    border-color: rgba(0, 0, 0, 0.10) !important;
+}
+
+.btn_lg {
+    max-width: 160px !important;
+    width: 100% !important;
+    padding: 12px;
+    font-size: 16px !important;
+}
+
+.track_container {
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    width: 410px !important;
+    /* width: 100% !important; */
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.track_parent {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.track_container button {
+    border: none;
+}
+
+@media(max-width:1023px) {
+    .tracks {
+        flex-wrap: wrap;
+    margin: 15px;
+    }
+    .track_parent{
+        margin: auto !important;
+        display: flex;
+        justify-content: center;
+    }
 }
