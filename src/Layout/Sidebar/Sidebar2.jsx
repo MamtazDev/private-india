@@ -96,7 +96,7 @@ const Sidebar2 = () => {
               <img src={icon4} alt="" />
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
-              <Link to="/favourites">Favourites</Link>
+              <Link to="/dashboard/favourites">Favourites</Link>
             </h6>
           </div>
         </div>
