@@ -44,23 +44,13 @@ const Sidebar3 = () => {
             </div>
           </div>
           {/* profile div */}
-          <div
-            className={` ${
-              sideCollapse ? "sidebar_collapse_profile" : "sidebar_profile"
-            }`}
-          >
-            <div>
-              <img src={profile} alt="" />
-            </div>
-            <p>Username</p>
-            <hr />
-          </div>
+
           <div className="nav-option option1">
             <p>
               <i class="fa-solid fa-user"></i>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
-              Personal Config
+              Settings
             </h6>
           </div>
           <div className="nav-option option1">
@@ -68,7 +58,7 @@ const Sidebar3 = () => {
               <i class="fa-solid fa-server"></i>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
-              <Link to="/serverlist">Servers List</Link>
+              <Link to="/serverlist">Commands</Link>
             </h6>
           </div>
           <div className="nav-option option1">
@@ -76,15 +66,7 @@ const Sidebar3 = () => {
               <i class="fa-brands fa-product-hunt"></i>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
-              My Products
-            </h6>
-          </div>
-          <div className="nav-option option1">
-            <p>
-              <i class="fa-solid fa-money-bill"></i>
-            </p>
-            <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
-              Billing
+              Premium
             </h6>
           </div>
         </div>

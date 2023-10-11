@@ -45,10 +45,7 @@ const SpotifyProfile = () => {
         <TopTracks />
         <TopArticles />
         <ManageUser />
-
-
-
-        
+        <footer>© 2021 Uzox Music Bot. All rights reserved.</footer>
       </div>
     </>
   );

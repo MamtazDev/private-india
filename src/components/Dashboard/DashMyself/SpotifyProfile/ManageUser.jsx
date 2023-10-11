@@ -4,7 +4,7 @@ import product from "../../../../assets/01.png";
 const ManageUser = () => {
   return (
     <>
-      <div className="favourites_container">
+      <div className="favourites_container1">
         <div className="fav_header">
           <h3>Manage Users</h3>
           <p>
