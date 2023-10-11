@@ -9,10 +9,11 @@
     flex-wrap: wrap;
 
 }
+
 .spotify_profile_container1 {
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
     gap: 60px;
     align-items: center;
     padding: 60px 170px !important;
@@ -25,16 +26,25 @@
     padding-left: 35px;
 }
 
-.product_img1 img{
-    width: 100px;
-    height: 100px;
+.product_img1 img {
+    width: 100% !important;
+    height: 100% !important;
     object-fit: cover;
 }
 
 .spotify_profile_card {
-width: 100% !important;
+    width: 100% !important;
+    height: 164px !important;
+    object-fit: cover;
 }
-.spotify_profile{
+
+.spotify_profile_card1 {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+.spotify_profile {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,17 +52,81 @@ width: 100% !important;
     margin: auto;
 }
 
-@media (max-width:1024px){
-.spotify_profile_card{
-    max-width: 400px !important;
+.card_row {
+    --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
 }
-.spotify_profile_body {
+
+.profile_section h4 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 120% */
+}
+/* manage user */
+.user_buttons{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
     width: 100%;
-    padding-left: 0px;
 }
-.spotify_profile_container{
-    padding: 60px 0 !important;
-    margin-right: 20px;
+.manage_card_body{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
+
+@media (max-width:1024px) {
+    .spotify_profile_card {
+        max-width: 400px !important;
+        height: unset !important;
+    }
+
+    .spotify_profile_card1 {
+        max-width: 400px !important;
+        height: unset !important;
+    }
+
+    .spotify_profile_body {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .spotify_profile_container {
+        padding: 60px 0 !important;
+        margin-right: 20px;
+    }
+
+    .spotify_profile_container1 {
+        padding: 60px 0 !important;
+        margin-right: 20px;
+    }
+
+    .card-body {
+        margin-top: 20px !important;
+    }
+
+
+
+    .spotify_profile_container1{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+
 
 }

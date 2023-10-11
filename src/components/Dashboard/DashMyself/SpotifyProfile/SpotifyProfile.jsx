@@ -2,6 +2,8 @@ import React from "react";
 import "./SpotifyProfile.css";
 import product from "../../../../assets/01.png";
 import TopTracks from "./TopTracks";
+import TopArticles from "./TopArticles";
+import ManageUser from "./ManageUser";
 const SpotifyProfile = () => {
   return (
     <>
@@ -26,13 +28,13 @@ const SpotifyProfile = () => {
               class="spotify_profile_card card mb-3 w-100"
               style={{ maxWidth: "520px" }}
             >
-              <div class="row">
+              <div class="row card_row h-100">
                 <div class="col-md-4 product_img1">
                   <img src={product} class="card-img" alt="..." />
                 </div>
                 <div class="col-md-8 spotify_profile_body">
                   <div class="card-body">
-                    <h5 class="card-title">Connected as</h5>
+                    <h5 class="card-title mb-0">Connected as</h5>
                     <p class="card-text">John Doe</p>
                   </div>
                 </div>
@@ -41,6 +43,12 @@ const SpotifyProfile = () => {
           </div>
         </div>
         <TopTracks />
+        <TopArticles />
+        <ManageUser />
+
+
+
+        
       </div>
     </>
   );

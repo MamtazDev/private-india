@@ -1,15 +1,15 @@
 import React from "react";
 import product from "../../../../assets/01.png";
-const TopTracks = () => {
+const TopArticles = () => {
   return (
     <>
       <div className=" spotify_profile_container1 ">
         <div className=" profile_section">
-          <h4>Top Tracks</h4>
+          <h4>Top Artists</h4>
 
-          <p>Your favourite tracks on Spotify.</p>
+          <p>Explore your favorite artists on Spotify.</p>
         </div>
-        <div>
+        <div className="">
           <div
             class="spotify_profile_card card  mb-3 w-100"
             style={{ maxWidth: "520px" }}
@@ -21,9 +21,8 @@ const TopTracks = () => {
               <div class="col-md-8 spotify_profile_body1">
                 <div class="card-body">
                   <h5 class="card-title mb-0">
-                    Track 1 (clickable hyperlink to url)
+                  Artist 1 (clickable hyperlink to url)
                   </h5>
-                  <p class="card-text">Artist 1 (clickable hyperlink to url)</p>
                   <button className="border-0 p-1 mt-1">#1</button>
                 </div>
               </div>
@@ -40,9 +39,8 @@ const TopTracks = () => {
               <div class="col-md-8 spotify_profile_body1">
                 <div class="card-body">
                   <h5 class="card-title mb-0">
-                    Track 2 (clickable hyperlink to url)
+                  Artist 2 (clickable hyperlink to url)
                   </h5>
-                  <p class="card-text">Artist 1 (clickable hyperlink to url)</p>
                   <button className="border-0 p-1 mt-1">#2</button>
                 </div>
               </div>
@@ -54,4 +52,4 @@ const TopTracks = () => {
   );
 };
 
-export default TopTracks;
+export default TopArticles;
