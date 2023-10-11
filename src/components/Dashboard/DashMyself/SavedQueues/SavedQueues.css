@@ -17,22 +17,35 @@
     margin-bottom: 20px;
 }
 
+.ques_header {
+    color: #000;
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
 
-@media(max-width:1023px) {
-        .ques_container {
+@media(max-width:1024px) {
+    .ques_container {
         flex-wrap: wrap;
         margin: 15px;
-
         justify-content: center;
     }
 
     .queues_parent {
-        /* margin: auto !important; */
         display: flex;
         flex-direction: column;
         gap: 20px !important;
         margin-bottom: 20px !important;
         justify-content: center;
-        /* align-items: ce; */
+    }
+
+    .ques_header {
+        color: #000;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
     }
 }

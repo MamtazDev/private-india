@@ -4,6 +4,7 @@ import OverView from "../components/Dashboard/Overview/OverView/OverView";
 import Layout2 from "../Layout/Layout/Layout2";
 import Favourites from "../components/Dashboard/DashMyself/Favourites/Favourites";
 import SavedQueues from "./../components/Dashboard/DashMyself/SavedQueues/SavedQueues";
+import OverviewMyDash from "../components/Dashboard/DashMyself/OverviewMyDash/OverviewMyDash";
 
 export const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ export const router = createBrowserRouter([
       {
         path: "/dashboard/savedQues",
         element: <SavedQueues />,
+      },
+      {
+        path: "/dashboard/overview",
+        element: <OverviewMyDash />,
       },
     ],
   },

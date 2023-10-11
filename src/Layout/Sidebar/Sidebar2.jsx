@@ -56,7 +56,7 @@ const Sidebar2 = () => {
               <i class="fa-solid fa-music"></i>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
-              <Link to="/overview">Overview</Link>
+              <Link to="/dashboard/overview">Overview</Link>
             </h6>
           </div>
           <div className="nav-option option1">
