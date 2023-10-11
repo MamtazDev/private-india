@@ -64,7 +64,7 @@ const Sidebar2 = () => {
               <i class="fa-solid fa-music"></i>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
-              <Link to="/serverlist">Spotify</Link>
+              <Link to="/dashboard/spotify">Spotify</Link>
             </h6>
           </div>
           <div className="nav-option option1">

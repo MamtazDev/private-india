@@ -1,0 +1,58 @@
+.spotify_profile_container {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    padding: 60px 170px !important;
+    flex-wrap: wrap;
+
+}
+.spotify_profile_container1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    padding: 60px 170px !important;
+    flex-wrap: wrap;
+
+}
+
+.spotify_profile_body {
+    width: 65%;
+    padding-left: 35px;
+}
+
+.product_img1 img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.spotify_profile_card {
+width: 100% !important;
+}
+.spotify_profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    margin: auto;
+}
+
+@media (max-width:1024px){
+.spotify_profile_card{
+    max-width: 400px !important;
+}
+.spotify_profile_body {
+    width: 100%;
+    padding-left: 0px;
+}
+.spotify_profile_container{
+    padding: 60px 0 !important;
+    margin-right: 20px;
+}
+
+}

@@ -5,6 +5,7 @@ import Layout2 from "../Layout/Layout/Layout2";
 import Favourites from "../components/Dashboard/DashMyself/Favourites/Favourites";
 import SavedQueues from "./../components/Dashboard/DashMyself/SavedQueues/SavedQueues";
 import OverviewMyDash from "../components/Dashboard/DashMyself/OverviewMyDash/OverviewMyDash";
+import SpotifyProfile from "./../components/Dashboard/DashMyself/SpotifyProfile/SpotifyProfile";
 
 export const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ export const router = createBrowserRouter([
       {
         path: "/dashboard/overview",
         element: <OverviewMyDash />,
+      },
+      {
+        path: "/dashboard/spotify",
+        element: <SpotifyProfile />,
       },
     ],
   },
