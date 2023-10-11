@@ -85,6 +85,7 @@ input:focus-visible {
 
 .track_container button {
     border: none;
+    background-color: transparent;
 }
 
 @media(max-width:1023px) {

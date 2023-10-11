@@ -1,0 +1,38 @@
+.saved_ques p {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.ques_container {
+    display: flex;
+    gap: 20px !important;
+    flex-wrap: wrap;
+}
+
+.queues_parent {
+    width: 410px;
+    margin-bottom: 20px;
+}
+
+
+@media(max-width:1023px) {
+        .ques_container {
+        flex-wrap: wrap;
+        margin: 15px;
+
+        justify-content: center;
+    }
+
+    .queues_parent {
+        /* margin: auto !important; */
+        display: flex;
+        flex-direction: column;
+        gap: 20px !important;
+        margin-bottom: 20px !important;
+        justify-content: center;
+        /* align-items: ce; */
+    }
+}

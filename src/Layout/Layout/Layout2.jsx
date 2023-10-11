@@ -8,7 +8,7 @@ const Layout2 = () => {
   return (
     <div className="">
       <Header />
-      <div className="d-flex w-100">
+      <div className="d-flex w-100 layout_container">
         <div className="w-full">
           <Sidebar2 />
         </div>

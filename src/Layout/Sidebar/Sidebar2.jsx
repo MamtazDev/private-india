@@ -88,7 +88,7 @@ const Sidebar2 = () => {
               <img src={icon3} alt="" />
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
-              Saved Queues
+              <Link to="/dashboard/savedQues"> Saved Queues </Link>
             </h6>
           </div>
           <div className="nav-option option1">
