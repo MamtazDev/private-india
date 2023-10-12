@@ -7,7 +7,7 @@ import LastFm from "./LastFm";
 const Spotify = () => {
   return (
     <>
-      <div className="outlet_container1 d-flex ">
+      <div className="outlet_container1 ">
         <div className="saved_queue_container">
           <div className="saved_queues_left_heading">
             <h2>Spotify</h2>

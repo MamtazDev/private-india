@@ -38,7 +38,7 @@
 .fav_header p {
     color: #000;
     text-align: center;
-    font-family: Roboto;
+    font-family: Roboto !important;
     font-size: 22px !important;
     font-style: normal;
     font-weight: 400;
@@ -101,7 +101,6 @@ input:focus-visible {
 }
 
 @media(max-width:1023px) {
-
     .track_parent {
         max-width: 420px !important;
         width: 100% !important;

@@ -53,7 +53,7 @@ const Sidebar2 = () => {
           ></div>
           <div className="nav-option option1">
             <p>
-              <i class="fa-solid fa-music"></i>
+            <Link to="/dashboard/overview"> <i class="fa-solid fa-music"></i></Link>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               <Link to="/dashboard/overview">Overview</Link>
@@ -61,7 +61,7 @@ const Sidebar2 = () => {
           </div>
           <div className="nav-option option1">
             <p>
-              <i class="fa-solid fa-music"></i>
+            <Link to="/dashboard/spotify"><i class="fa-solid fa-music"></i></Link>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               <Link to="/dashboard/spotify">Spotify</Link>
@@ -69,7 +69,7 @@ const Sidebar2 = () => {
           </div>
           <div className="nav-option option1">
             <p>
-              <img src={icon1} alt="" />
+            <Link to="/"> <img src={icon1} alt="" /></Link>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               Last.fm
@@ -77,7 +77,7 @@ const Sidebar2 = () => {
           </div>
           <div className="nav-option option1">
             <p>
-              <img src={icon2} alt="" />
+            <Link to="/"><img src={icon2} alt="" /></Link>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               Premium
@@ -85,7 +85,7 @@ const Sidebar2 = () => {
           </div>
           <div className="nav-option option1">
             <p>
-              <img src={icon3} alt="" />
+            <Link to="/dashboard/savedQues">  <img src={icon3} alt="" /></Link>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               <Link to="/dashboard/savedQues"> Saved Queues </Link>
@@ -93,7 +93,7 @@ const Sidebar2 = () => {
           </div>
           <div className="nav-option option1">
             <p>
-              <img src={icon4} alt="" />
+            <Link to="/dashboard/favourites"> <img src={icon4} alt="" /></Link>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               <Link to="/dashboard/favourites">Favourites</Link>

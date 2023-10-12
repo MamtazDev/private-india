@@ -10,9 +10,9 @@ const Header = () => {
           <div className="profile_div">
             <img src={profile} alt="" srcset="" />
           </div>
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" to="/">
             Uzox Bot
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
