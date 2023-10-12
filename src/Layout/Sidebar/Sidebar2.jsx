@@ -10,7 +10,7 @@ const Sidebar2 = () => {
   const [smallSideCollapse, setSmallSideCollapse] = useState(false);
 
   return (
-    <>
+    <div className="h-0">
       <div className="sidebar_content">
         <div
           className={`${
@@ -116,7 +116,7 @@ const Sidebar2 = () => {
           </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

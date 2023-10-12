@@ -35,8 +35,11 @@ a {
   text-decoration: none;
 }
 
-.overview_container {
-  margin: 0 auto;
+.mtop_100{
+  margin-top: 100px !important;
+}
+.sidebar_wrapper {
+  width: 100% !important;
 }
 
 .server_container {
@@ -53,14 +56,11 @@ a {
 input:focus-visible {
   outline: 0 !important;
 }
-/* Hide default HTML checkbox */
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
-
-/* The slider */
 .slider {
   position: absolute;
   cursor: pointer;

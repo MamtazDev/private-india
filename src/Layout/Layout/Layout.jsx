@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../Header/Header";
-import {Outlet} from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import "../../App.css";
 import Sidebar from "../Sidebar/Sidebar";
 
@@ -9,11 +9,19 @@ const Layout = () => {
     <div className="">
       <Header />
 
-      <div className="d-flex w-100 ">
-        <div className="w-full">
-          <Sidebar />
+   {/*    <div className="row  w-100 h-0">
+        <div className="col-lg-2 sidebar_wrapper"></div>
+        <div className="col-lg-10 w-100"></div>
+      </div> */}
+      <div class="w-100">
+        <div class="row">
+          <div class="col-1">
+            <Sidebar />
+          </div>
+          <div class="col-11 mtop_100">
+            <Outlet />
+          </div>
         </div>
-        <Outlet className="w-full" />
       </div>
     </div>
   );

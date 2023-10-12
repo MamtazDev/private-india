@@ -8,6 +8,9 @@ import OverviewMyDash from "../components/Dashboard/DashMyself/OverviewMyDash/Ov
 import SpotifyProfile from "./../components/Dashboard/DashMyself/SpotifyProfile/SpotifyProfile";
 import Layout3 from "./../Layout/Layout/Layout3";
 import ServerPage from "./../components/Dashboard/ServerPage/ServerPage";
+import ServerItems from "../components/Dashboard/Overview/ServerList/ServerItems";
+import MyProducts from "../components/Dashboard/Overview/MyProducts/MyProducts";
+import Payments from './../components/Dashboard/Overview/Payments';
 
 export const router = createBrowserRouter([
   {
@@ -17,6 +20,18 @@ export const router = createBrowserRouter([
       {
         path: "/",
         element: <OverView />,
+      },
+      {
+        path: "/server_list",
+        element: <ServerItems />,
+      },
+      {
+        path: "/myProducts",
+        element: <MyProducts />,
+      },
+      {
+        path: "/billing",
+        element: <Payments />,
       },
     ],
   },

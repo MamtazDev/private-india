@@ -1,5 +1,7 @@
 import React from "react";
 import "./MyProduct.css";
+import AddsOnes from "../AddsOnes";
+import Bundles from "../Bundles/Bundles";
 const MyProducts = () => {
   return (
     <>
@@ -14,6 +16,8 @@ const MyProducts = () => {
           Personal
         </button>
       </div>
+      <Bundles />
+      <AddsOnes />
     </>
   );
 };

@@ -1,7 +1,5 @@
 import React from "react";
 import ServerList from "./ServerList";
-import MyProducts from "../MyProducts/MyProducts";
-
 const ServerItems = () => {
   return (
     <>
