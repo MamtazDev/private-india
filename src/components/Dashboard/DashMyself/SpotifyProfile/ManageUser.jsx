@@ -23,8 +23,8 @@ const ManageUser = () => {
         </div>
       </div>
 
-      <div className=" spotify_profile_container1 ">
-        <div className=" profile_section">
+      <div className="spotify_profile_container1 pb-0">
+        <div className="profile_section">
           <h4>Users with Access</h4>
         </div>
         <div className="">

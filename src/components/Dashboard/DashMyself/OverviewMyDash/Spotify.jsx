@@ -2,7 +2,6 @@ import React from "react";
 import "./OverviewMyDash.css";
 import cardImg from "../../../../assets/g7.jpg";
 import key from "../../../../assets/key.png";
-import Favourites from "./Favourites";
 import LastFm from "./LastFm";
 const Spotify = () => {
   return (
