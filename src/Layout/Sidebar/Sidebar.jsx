@@ -55,7 +55,7 @@ const Sidebar = () => {
             <p>Username</p>
             <hr />
           </div>
-          <div className="nav-option option1">
+          <Link to="/dashboard/overview" className="nav-option option1">
             <p>
               <Link to="/dashboard/overview">
                 {" "}
@@ -65,8 +65,8 @@ const Sidebar = () => {
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               <Link to="/dashboard/overview"> Personal Config</Link>
             </h6>
-          </div>
-          <div className="nav-option option1">
+          </Link>
+          <Link to="/server" className="nav-option option1">
             <p>
               <Link to="/server">
                 {" "}
@@ -76,23 +76,23 @@ const Sidebar = () => {
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               <Link to="/server">Servers List</Link>
             </h6>
-          </div>
-          <div className="nav-option option1">
+          </Link>
+          <Link to="/" className="nav-option option1">
             <p>
               <i class="fa-brands fa-product-hunt"></i>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               My Products
             </h6>
-          </div>
-          <div className="nav-option option1">
+          </Link>
+          <Link to="/" className="nav-option option1">
             <p>
               <i class="fa-solid fa-money-bill"></i>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               Billing
             </h6>
-          </div>
+          </Link>
         </div>
       </div>
     </>
