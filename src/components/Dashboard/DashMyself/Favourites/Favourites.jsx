@@ -18,15 +18,15 @@ const Favourites = () => {
       {[ 1, 2, 3].map((item) => (
        <div className="d-flex justify-content-between gap-4 tracks">
          <div className="track_parent">
-          <div className="track_container">
+          <div className="track_container w-100">
             <p>Track {item}</p>
             <button className="">
               <i class="fa-solid fa-trash"></i>
             </button>
           </div>
         </div>
-        <div className="track_parent">
-          <div className="track_container">
+        <div className="track_parent" >
+          <div className="track_container w-100">
             <p>Track {item}</p>
             <button className="">
               <i class="fa-solid fa-trash"></i>

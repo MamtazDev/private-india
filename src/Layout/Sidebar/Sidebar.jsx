@@ -57,7 +57,10 @@ const Sidebar = () => {
           </div>
           <div className="nav-option option1">
             <p>
-              <i class="fa-solid fa-user"></i>
+              <Link to="/dashboard/overview">
+                {" "}
+                <i class="fa-solid fa-user"></i>
+              </Link>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               <Link to="/dashboard/overview"> Personal Config</Link>
@@ -65,10 +68,13 @@ const Sidebar = () => {
           </div>
           <div className="nav-option option1">
             <p>
-              <i class="fa-solid fa-server"></i>
+              <Link to="/server">
+                {" "}
+                <i class="fa-solid fa-server"></i>
+              </Link>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
-              <Link to="/serverlist">Servers List</Link>
+              <Link to="/server">Servers List</Link>
             </h6>
           </div>
           <div className="nav-option option1">

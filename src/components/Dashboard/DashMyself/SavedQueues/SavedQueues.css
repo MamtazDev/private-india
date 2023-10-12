@@ -27,6 +27,19 @@
 }
 
 @media(max-width:1024px) {
+    .saved_queue_container{
+        padding: 0 !important;
+        margin-bottom: 20px;
+    }
+    .fav_header{
+        margin-right: 15px !important;
+    }
+    .queues_parent {
+        max-width: 410px !important;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
     .ques_container {
         flex-wrap: wrap;
         margin: 15px;

@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./Sidebar.css";
-import profile from "../../assets/g7.jpg";
 import { Link } from "react-router-dom";
-
 const Sidebar3 = () => {
   const [sideCollapse, setSideCollapse] = useState(false);
   const [smallSideCollapse, setSmallSideCollapse] = useState(false);

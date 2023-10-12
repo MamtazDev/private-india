@@ -5,7 +5,7 @@ import squaredown from '../../../../assets/sqd.png'
 const SavedQueues = () => {
   return (
     <>
-      <div className="favourites_container mb-5">
+      <div className="favourites_container mb-5 ">
         <div className="fav_header">
           <h3>Saved Queues</h3>
           <p>Manage and customize your Saved Queues.</p>

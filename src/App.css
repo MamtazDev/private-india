@@ -52,7 +52,8 @@ a {
   margin: 0 auto;
   /* margin-top: 100px; */
 }
-.server_container{
+
+.server_container {
   margin-top: 100px;
 }
 
@@ -95,15 +96,15 @@ a {
   transition: .4s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: #2196F3;
 }
 
-input:focus + .slider {
+input:focus+.slider {
   box-shadow: 0 0 1px #2196F3;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
@@ -117,18 +118,28 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-.outlet_height{
+
+.outlet_height {
   overflow-y: scroll !important;
 }
+
 /* responsive */
-@media(max-width:767px) {
-  .outlet_height{
+@media(max-width:768px) {
+  .sidebar_content {
+    width: 80px;
+    height: 100vh !important;
+    z-index: 100000000000000000000000000;
+    position: relative;
+  }
+
+  .outlet_height {
     overflow-y: scroll !important;
   }
-  
+
   .sidebar-container {
-    top: 11% !important;
-}
+    top: 10.8% !important;
+    min-height: 100vh !important;
+  }
 
   .nav-item a {
     text-align: center;
@@ -140,11 +151,25 @@ input:checked + .slider:before {
   }
 }
 
-@media(max-width:992px) {
-  .outlet_height{
-    overflow-y: scroll !important;
-  }
+@media(max-width:767px) {
+  .sidebar_content {
+    width: 80px;
+    height: 100vh !important;
+    z-index: 100000000000000000000000000;
+    position: relative;
+}
+  .sidebar_content {
+    /* top: 10.8% !important; */
+    height: 100vh !important;
 
+  }
+  .sidebar-container {
+    top: 11% !important;
+    min-height: 100vh !important;
+  }
+}
+
+@media(max-width:992px) {
   /* navbar */
   .nav-item a {
     text-align: center;
@@ -153,5 +178,19 @@ input:checked + .slider:before {
   .navbar-nav {
     margin-top: 40px;
     gap: 20px !important;
+  }
+}
+
+@media(max-width:500px) {
+  .sidebar-container {
+    top: 10.5% !important;
+    height: 100vh !important;
+  }
+
+  .sidebar_content {
+    width: 80px;
+    height: 100vh !important;
+    z-index: 100000000000000000000000000;
+    position: relative;
   }
 }
