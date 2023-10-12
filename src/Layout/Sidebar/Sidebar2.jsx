@@ -96,7 +96,6 @@ const Sidebar2 = () => {
           <Link to="/dashboard/savedQues" className="nav-option option1">
             <p>
               <Link to="/dashboard/savedQues">
-                
                 <img src={icon3} alt="" />
               </Link>
             </p>

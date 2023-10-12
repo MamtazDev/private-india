@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -32,16 +30,6 @@ i {
   cursor: pointer;
 }
 
-/* button:focus-visible {
-  border: none !important;
-  outline: none !important;
-}
- */
-/* button:focus {
-  border: none !important;
-  outline: none !important;
-}
- */
 a {
   color: unset;
   text-decoration: none;
@@ -49,7 +37,6 @@ a {
 
 .overview_container {
   margin: 0 auto;
-  /* margin-top: 100px; */
 }
 
 .server_container {
@@ -63,6 +50,9 @@ a {
   height: 34px;
 }
 
+input:focus-visible {
+  outline: 0 !important;
+}
 /* Hide default HTML checkbox */
 .switch input {
   opacity: 0;
