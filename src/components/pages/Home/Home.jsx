@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <Outlet className="outlet_bg_set" />
+      <Outlet className="" />
     </>
   );
 };

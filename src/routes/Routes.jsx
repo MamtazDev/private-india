@@ -13,21 +13,27 @@ import MyProducts from "../components/Dashboard/Overview/MyProducts/MyProducts";
 import Payments from "./../components/Dashboard/Overview/Payments";
 import Home from "../components/pages/Home/Home";
 import Shop from "../components/pages/Shop/Shop/Shop";
+import Commands from "../components/pages/Commands/Commands";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-    children: [{ path: "/shop", element: <Shop /> }],
+    children: [
+      {
+        path: "/shop",
+        element: <Shop />,
+      },
+      {
+        path: "/commands",
+        element: <Commands />,
+      },
+    ],
   },
   {
     path: "/dash",
     element: <Layout />,
     children: [
-      /*   {
-        path: "/dash",
-        element: <OverView />,
-      }, */
       {
         path: "/dash/server_list",
         element: <ServerItems />,

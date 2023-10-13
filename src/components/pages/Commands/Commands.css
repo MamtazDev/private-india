@@ -1,0 +1,128 @@
+.content_master {
+    max-width: 1375px;
+    margin: 50px auto 30px;
+    padding: 20px 40px 40px;
+}
+
+.commands_bg {
+    background-color: #342124;
+
+}
+
+.sRadius {
+    border-radius: 3px;
+}
+
+
+.content_master>div>h3 {
+    margin: 10px 0;
+}
+
+/* #quick_stats>ul {
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: start;
+} */
+
+/* .bots_tiles {
+    flex-wrap: wrap !important;
+} */
+
+.content_master ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bots_tiles {
+    display: flex;
+    justify-content: start;
+
+}
+
+.bots_tiles .tile {
+    max-width: 293px;
+    width: 100%;
+    margin-right: 25px;
+}
+
+.tile {
+    padding: 20px;
+    margin-bottom: 30px;
+    color: var(--white);
+}
+
+.sRadius {
+    border-radius: 3px;
+}
+
+.tile .tile_title,
+.tile .tile_info {
+    margin-bottom: 10px;
+}
+
+.fs20 {
+    font-size: 20px;
+}
+
+.tile .invite {
+    margin-bottom: -10px;
+    float: right;
+}
+
+.tile .invite,
+.tile .tile_info ul::before {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.elmHover,
+.elm2Hover {
+    transition: all 200ms ease-in-out;
+}
+
+.elm2Hover {
+    opacity: 0.5;
+}
+
+.fwBold {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.tile .tile_title img,
+.tile .tile_title span {
+    vertical-align: middle;
+}
+
+.tile .tile_title img {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.tile .tile_title span {
+    max-width: 74%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tile,
+.tWhite {
+    color: #fff;
+}
+
+@media(max-width:1024px) {
+    .bots_tiles {
+        display: flex;
+        justify-content: center;
+
+    }
+}
