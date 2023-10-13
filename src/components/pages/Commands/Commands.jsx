@@ -1,6 +1,7 @@
 import React from "react";
 import "./Commands.css";
 import Shard from "./Shard";
+import ShardTitleCard from "./ShardTitleCard";
 const Commands = () => {
   return (
     <div className="mtop_100" style={{ backgroundColor: "black" }}>
@@ -564,7 +565,8 @@ const Commands = () => {
             </li>
           </ul>
         </div>
-      <Shard />
+        <Shard />
+        <ShardTitleCard />
       </div>
       {/*  */}
     </div>
