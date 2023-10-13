@@ -1,0 +1,101 @@
+.content_master>div>h3 {
+    margin: 10px 0;
+}
+
+.tWhite {
+    color: white;
+}
+
+.fwBold {
+    font-weight: 700;
+}
+
+.fs20 {
+    font-size: 20px;
+}
+.tile.minimized.selected {
+    background-color: #722d37;
+}
+#quick_stats>ul,
+#shards_stats>ul,
+#quick_stats_premium>ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.content_master ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bots_tiles_minimized {
+    margin-bottom: 30px !important;
+}
+
+.tile.minimized.selected {
+    background-color: var(--red_d);
+}
+
+.tile.minimized {
+    cursor: pointer;
+    padding: 6px 20px !important;
+    background-color: #722d37;
+    transition: all 300ms ease;
+    margin: 0 10px 10px 0;
+}
+
+.bots_tiles_minimized .tile {
+    min-width: 280px !important;
+}
+
+.tile {
+    padding: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.sRadius {
+    border-radius: 3px;
+}
+
+.fs16 {
+    font-size: 16px;
+}
+
+.tile.minimized .tile_title {
+    margin: 0;
+}
+
+.tile .tile_title img,
+.tile .tile_title span {
+    vertical-align: middle;
+}
+
+.tile .tile_title img {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.tile .tile_title span {
+    vertical-align: middle;
+}
+
+.tile .tile_title span {
+    max-width: 74%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fs16 {
+    font-size: 16px;
+}
+
+.tile.minimized {
+    cursor: pointer;
+}

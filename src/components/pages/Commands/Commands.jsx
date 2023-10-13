@@ -1,13 +1,14 @@
 import React from "react";
 import "./Commands.css";
+import Shard from "./Shard";
 const Commands = () => {
   return (
-    <div className="mtop_100" style={{backgroundColor:"black"}}>
+    <div className="mtop_100" style={{ backgroundColor: "black" }}>
       <div className="commands_bg content_master sRadius">
         <div id="quick_stats">
           <h3 class="tWhite fs20 fwBold">Quick Stats</h3>
           <ul class="row bots_tiles">
-            <li 
+            <li
               class="tile sRadius command1 col-md-3"
               style={{ backgroundColor: "#812d33" }}
             >
@@ -43,7 +44,10 @@ const Commands = () => {
                 invite
               </a>
             </li>
-            <li class="col-md-3  tile sRadius" style={{ backgroundColor: "#008d7f" }}>
+            <li
+              class="col-md-3  tile sRadius"
+              style={{ backgroundColor: "#008d7f" }}
+            >
               <div class="tile_title fs20">
                 <img
                   src="https://cdn.discordapp.com/avatars/412347257233604609/5e8159b67a74d92153c8cd79cce4889c.png"
@@ -76,7 +80,10 @@ const Commands = () => {
                 invite
               </a>
             </li>
-            <li class="col-md-3 tile sRadius" style={{ backgroundColor: "#e91e63" }}>
+            <li
+              class="col-md-3 tile sRadius"
+              style={{ backgroundColor: "#e91e63" }}
+            >
               <div class="tile_title fs20">
                 <img
                   src="https://cdn.discordapp.com/avatars/412347553141751808/0d4361414132f16aab8a6486f1b7bb5b.png"
@@ -109,7 +116,10 @@ const Commands = () => {
                 invite
               </a>
             </li>
-            <li class="col-md-3 tile sRadius " style={{ backgroundColor: "#f05f3b" }}>
+            <li
+              class="col-md-3 tile sRadius "
+              style={{ backgroundColor: "#f05f3b" }}
+            >
               <div class="tile_title fs20">
                 <img
                   src="https://cdn.discordapp.com/avatars/412347780841865216/bd326c0e829d6708cf42a75ef9e68b58.png"
@@ -145,8 +155,7 @@ const Commands = () => {
           </ul>
         </div>
         <div id="quick_stats">
-          <h3 class="tWhite fs20 fwBold">Premium Bots - Quick Stats
-</h3>
+          <h3 class="tWhite fs20 fwBold">Premium Bots - Quick Stats</h3>
           <ul class="row bots_tiles">
             <li
               class="tile sRadius command1 col-md-3 w-full"
@@ -184,7 +193,10 @@ const Commands = () => {
                 invite
               </a>
             </li>
-            <li class="col-md-3 tile sRadius" style={{ backgroundColor: "#3CD23C" }}>
+            <li
+              class="col-md-3 tile sRadius"
+              style={{ backgroundColor: "#3CD23C" }}
+            >
               <div class="tile_title fs20">
                 <img
                   src="https://cdn.discordapp.com/avatars/412347257233604609/5e8159b67a74d92153c8cd79cce4889c.png"
@@ -217,7 +229,10 @@ const Commands = () => {
                 invite
               </a>
             </li>
-            <li class="col-md-3 tile sRadius" style={{ backgroundColor: "#5A18BD" }}>
+            <li
+              class="col-md-3 tile sRadius"
+              style={{ backgroundColor: "#5A18BD" }}
+            >
               <div class="tile_title fs20">
                 <img
                   src="https://cdn.discordapp.com/avatars/412347553141751808/0d4361414132f16aab8a6486f1b7bb5b.png"
@@ -250,7 +265,10 @@ const Commands = () => {
                 invite
               </a>
             </li>
-            <li class="col-md-3 tile sRadius" style={{ backgroundColor: "#9A9A9A" }}>
+            <li
+              class="col-md-3 tile sRadius"
+              style={{ backgroundColor: "#9A9A9A" }}
+            >
               <div class="tile_title fs20">
                 <img
                   src="https://cdn.discordapp.com/avatars/412347780841865216/bd326c0e829d6708cf42a75ef9e68b58.png"
@@ -324,7 +342,10 @@ const Commands = () => {
                 invite
               </a>
             </li>
-            <li class="col-md-3 tile sRadius" style={{ backgroundColor: "#CF40BA" }}>
+            <li
+              class="col-md-3 tile sRadius"
+              style={{ backgroundColor: "#CF40BA" }}
+            >
               <div class="tile_title fs20">
                 <img
                   src="https://cdn.discordapp.com/avatars/412347257233604609/5e8159b67a74d92153c8cd79cce4889c.png"
@@ -357,7 +378,10 @@ const Commands = () => {
                 invite
               </a>
             </li>
-            <li class="col-md-3 tile sRadius" style={{ backgroundColor: "#AA8256" }}>
+            <li
+              class="col-md-3 tile sRadius"
+              style={{ backgroundColor: "#AA8256" }}
+            >
               <div class="tile_title fs20">
                 <img
                   src="https://cdn.discordapp.com/avatars/412347553141751808/0d4361414132f16aab8a6486f1b7bb5b.png"
@@ -390,7 +414,10 @@ const Commands = () => {
                 invite
               </a>
             </li>
-            <li class="col-md-3 tile sRadius" style={{ backgroundColor: "#4394D3" }}>
+            <li
+              class="col-md-3 tile sRadius"
+              style={{ backgroundColor: "#4394D3" }}
+            >
               <div class="tile_title fs20">
                 <img
                   src="https://cdn.discordapp.com/avatars/412347780841865216/bd326c0e829d6708cf42a75ef9e68b58.png"
@@ -463,7 +490,10 @@ const Commands = () => {
                 invite
               </a>
             </li>
-            <li class="col-md-3 tile sRadius" style={{ backgroundColor: "#1DB071" }}>
+            <li
+              class="col-md-3 tile sRadius"
+              style={{ backgroundColor: "#1DB071" }}
+            >
               <div class="tile_title fs20">
                 <img
                   src="https://cdn.discordapp.com/avatars/412347257233604609/5e8159b67a74d92153c8cd79cce4889c.png"
@@ -496,7 +526,10 @@ const Commands = () => {
                 invite
               </a>
             </li>
-            <li class="col-md-3 tile sRadius" style={{ backgroundColor: "#FFC575" }}>
+            <li
+              class="col-md-3 tile sRadius"
+              style={{ backgroundColor: "#e91e63" }}
+            >
               <div class="tile_title fs20">
                 <img
                   src="https://cdn.discordapp.com/avatars/412347553141751808/0d4361414132f16aab8a6486f1b7bb5b.png"
@@ -529,10 +562,11 @@ const Commands = () => {
                 invite
               </a>
             </li>
-           
           </ul>
         </div>
+      <Shard />
       </div>
+      {/*  */}
     </div>
   );
 };
