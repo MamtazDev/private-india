@@ -1,6 +1,7 @@
 import React from "react";
 import serverimg from "../../../../assets/g7.jpg";
 import "./ServerList.css";
+import { Link } from "react-router-dom";
 const data = [
   { title: "Server Name" },
   { title: "Server Name" },
@@ -16,7 +17,9 @@ const ServerList = () => {
       <div className="serverlist">
         {data.map((item) => (
           <div className="server_content">
-            <img src={serverimg} alt="" />
+            <Link to="/">
+              <img src={serverimg} alt="" />
+            </Link>
             <p>{item.title}</p>
           </div>
         ))}

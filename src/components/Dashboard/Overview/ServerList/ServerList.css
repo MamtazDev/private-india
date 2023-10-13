@@ -16,19 +16,18 @@
 }
 
 .server_content {
-    background: #FFF;
+
     height: fit-content;
     padding: 17px;
     text-align: center;
-}
-
-.server_content {
     font-weight: 500 !important;
 }
 
+
+
 .server_title p {
     display: block;
-    color: #000;
+    color:#fff;
     font-family: Roboto;
     font-size: 48px;
     font-style: normal;

@@ -15,10 +15,11 @@
 .sidebar_content {
     width: 250px;
     height: 100vh !important;
+    background-color: black;
 }
 
 .nav_notCollapse {
-    background-color: #17222D;
+    background-color: #131313;
     color: #fff !important;
 }
 
@@ -58,18 +59,15 @@
 
 .nav-option:hover {
     background-color: #fff;
-    color: #000;
+    color: black;
     cursor: pointer;
     transition: ease-in 0.3s;
 }
 
-
-/* 768 theke sull width e kaj hbe */
 @media (min-width:768px) {
-
     .navCollapse {
         width: 80px;
-        background-color: #17222D;
+        background-color: #131313;
         color: #fff;
     }
 

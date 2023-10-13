@@ -10,7 +10,7 @@ const Header = () => {
           <div className="profile_div">
             <img src={profile} alt="" srcset="" />
           </div>
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/dash">
             Uzox Bot
           </Link>
           <button
@@ -42,7 +42,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="/shop">
                   Shop
                 </Link>
               </li>

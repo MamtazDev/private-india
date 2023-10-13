@@ -8,17 +8,12 @@ const Layout = () => {
   return (
     <div className="">
       <Header />
-
-   {/*    <div className="row  w-100 h-0">
-        <div className="col-lg-2 sidebar_wrapper"></div>
-        <div className="col-lg-10 w-100"></div>
-      </div> */}
-      <div class="w-100">
-        <div class="row">
-          <div class="col-1">
+      <div class="w-100 container-fluid">
+        <div className="row">
+          <div className="col-1 sidebar_bg_color">
             <Sidebar />
           </div>
-          <div class="col-11 mtop_100">
+          <div className="col-11 mtop_100 outlet_bg_set">
             <Outlet />
           </div>
         </div>

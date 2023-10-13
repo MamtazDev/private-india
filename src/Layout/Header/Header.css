@@ -11,26 +11,51 @@
 }
 
 .nav_bar_bg {
-    background: #FFF;
+    background: #131313;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 10000;
+    color: white;
 }
 
 
 .navbar-brand {
-    color: #000;
+    background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
 }
 
+.navbar-brand:hover {
+    background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
 .nav-item a {
-    color: #000 !important;
+    color: #fff !important;
     font-size: 16px !important;
     font-style: normal !important;
+}
+
+.nav-item a:hover {
+    background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    transition: ease-in 0.5s;
 }
 
 .navbar-nav {

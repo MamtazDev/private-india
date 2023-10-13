@@ -12,7 +12,7 @@
 }
 
 .saved_queues_left_heading h2 {
-    color: #000;
+    color:#fff;
     font-family: Roboto;
     font-size: 40px;
     font-style: normal;
@@ -20,7 +20,7 @@
 }
 
 .saved_queues_left_heading p {
-    color: #000;
+    color:#fff;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -55,7 +55,7 @@
 } */
 
 .overview_card p {
-    color: #000;
+    color:#fff;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -63,7 +63,7 @@
 }
 
 .overview_card h5 {
-    color: #000;
+    color:#fff;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;

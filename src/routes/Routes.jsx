@@ -10,27 +10,34 @@ import Layout3 from "./../Layout/Layout/Layout3";
 import ServerPage from "./../components/Dashboard/ServerPage/ServerPage";
 import ServerItems from "../components/Dashboard/Overview/ServerList/ServerItems";
 import MyProducts from "../components/Dashboard/Overview/MyProducts/MyProducts";
-import Payments from './../components/Dashboard/Overview/Payments';
+import Payments from "./../components/Dashboard/Overview/Payments";
+import Home from "../components/pages/Home/Home";
+import Shop from "../components/pages/Shop/Shop/Shop";
 
 export const router = createBrowserRouter([
   {
     path: "/",
+    element: <Home />,
+    children: [{ path: "/shop", element: <Shop /> }],
+  },
+  {
+    path: "/dash",
     element: <Layout />,
     children: [
-      {
-        path: "/",
+      /*   {
+        path: "/dash",
         element: <OverView />,
-      },
+      }, */
       {
-        path: "/server_list",
+        path: "/dash/server_list",
         element: <ServerItems />,
       },
       {
-        path: "/myProducts",
+        path: "/dash/myProducts",
         element: <MyProducts />,
       },
       {
-        path: "/billing",
+        path: "/dash/billing",
         element: <Payments />,
       },
     ],

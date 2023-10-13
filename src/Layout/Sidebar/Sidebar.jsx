@@ -74,10 +74,10 @@ const Sidebar = () => {
               </Link>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
-              <Link to="/server_list">Servers List</Link>
+              <Link to="/dash/server_list">Servers List</Link>
             </h6>
           </Link>
-          <Link to="/myProducts" className="nav-option option1">
+          <Link to="/dash/myProducts" className="nav-option option1">
             <p>
               <i class="fa-brands fa-product-hunt"></i>
             </p>
@@ -85,7 +85,7 @@ const Sidebar = () => {
               My Products
             </h6>
           </Link>
-          <Link to="/billing" className="nav-option option1">
+          <Link to="/dash/billing" className="nav-option option1">
             <p>
               <i class="fa-solid fa-money-bill"></i>
             </p>

@@ -1,5 +1,5 @@
 .saved_ques p {
-    color: #000;
+    color:#fff;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -18,7 +18,7 @@
 }
 
 .ques_header {
-    color: #000;
+    color:#fff;
     font-family: Roboto;
     font-size: 35px;
     font-style: normal;
@@ -55,7 +55,7 @@
     }
 
     .ques_header {
-        color: #000;
+        color:#fff;
         font-family: Roboto;
         font-size: 30px;
         font-style: normal;

@@ -26,7 +26,7 @@
 }
 
 .fav_header h3 {
-    color: #000;
+    color:#fff;
     text-align: center;
     font-family: Roboto;
     font-size: 40px !important;
@@ -36,7 +36,7 @@
 }
 
 .fav_header p {
-    color: #000;
+    color:#fff;
     text-align: center;
     font-family: Roboto !important;
     font-size: 22px !important;

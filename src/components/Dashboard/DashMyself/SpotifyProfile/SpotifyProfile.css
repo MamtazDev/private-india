@@ -63,7 +63,7 @@
 }
 
 .profile_section h4 {
-    color: #000;
+    color:#fff;
     font-family: Roboto;
     font-size: 40px;
     font-style: normal;
@@ -88,7 +88,7 @@
 
 footer {
     padding: 0px 0px 60px;
-    color: #000;
+    color:#fff;
     text-align: center;
     font-family: Roboto;
     font-size: 20px;
