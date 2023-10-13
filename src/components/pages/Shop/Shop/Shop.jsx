@@ -1,13 +1,9 @@
 import React from "react";
 import ShopCard from "./ShopCard";
-import item1 from "../../../../assets/shopitem1.avif";
-import item2 from "../../../../assets/shopitem2.avif";
-import item3 from "../../../../assets/shopitem3.avif";
-import item4 from "../../../../assets/shopitem4.avif";
-import item5 from "../../../../assets/shopitem5.avif";
+
 const data = [
   {
-    img: { item1 },
+    img: "https://imagedelivery.net/95QNzrEeP7RU5l5WdbyrKw/483c9d74-6f4f-46bb-1dc1-902ca558f400/shopitem",
     title:
       "Discord Token AIO Verifier (Email & Phone) - WITH FREE EMAIL VERIFICATION",
     price: "",
@@ -15,7 +11,7 @@ const data = [
     stock: "",
   },
   {
-    img: { item1 },
+    img: "https://imagedelivery.net/95QNzrEeP7RU5l5WdbyrKw/2bea13a5-8750-45c2-5373-13393363cb00/shopitem",
     title:
       "Discord Token AIO Verifier (Email & Phone) - WITH FREE EMAIL VERIFICATION",
     price: "3.99",
@@ -23,7 +19,7 @@ const data = [
     stock: "29",
   },
   {
-    img: { item2 },
+    img: "https://imagedelivery.net/95QNzrEeP7RU5l5WdbyrKw/f388b543-6406-41b5-e857-301f43843e00/shopitem",
     title:
       "Discord Token AIO Verifier (Email & Phone) - WITH FREE EMAIL VERIFICATION",
     price: "25.00",
@@ -31,7 +27,7 @@ const data = [
     stock: "17",
   },
   {
-    img: { item3 },
+    img: "https://imagedelivery.net/95QNzrEeP7RU5l5WdbyrKw/f388b543-6406-41b5-e857-301f43843e00/shopitem",
     title:
       "Discord Token AIO Verifier (Email & Phone) - WITH FREE EMAIL VERIFICATION",
     price: "1.00",
@@ -39,7 +35,7 @@ const data = [
     stock: "~",
   },
   {
-    img: { item4 },
+    img: "https://imagedelivery.net/95QNzrEeP7RU5l5WdbyrKw/2bea13a5-8750-45c2-5373-13393363cb00/shopitem",
     title:
       "Discord Token AIO Verifier (Email & Phone) - WITH FREE EMAIL VERIFICATION",
     price: "39.99",
@@ -47,7 +43,7 @@ const data = [
     stock: "6",
   },
   {
-    img: { item4 },
+    img: "https://imagedelivery.net/95QNzrEeP7RU5l5WdbyrKw/f388b543-6406-41b5-e857-301f43843e00/shopitem",
     title:
       "Discord Token AIO Verifier (Email & Phone) - WITH FREE EMAIL VERIFICATION",
     price: "14.95",
@@ -55,7 +51,7 @@ const data = [
     stock: "2",
   },
   {
-    img: { item5 },
+    img: "https://imagedelivery.net/95QNzrEeP7RU5l5WdbyrKw/483c9d74-6f4f-46bb-1dc1-902ca558f400/shopitem",
     title:
       "Discord Token AIO Verifier (Email & Phone) - WITH FREE EMAIL VERIFICATION",
     price: "",
@@ -63,7 +59,7 @@ const data = [
     stock: "",
   },
   {
-    img: { item5 },
+    img: "https://imagedelivery.net/95QNzrEeP7RU5l5WdbyrKw/483c9d74-6f4f-46bb-1dc1-902ca558f400/shopitem",
     title:
       "Discord Token AIO Verifier (Email & Phone) - WITH FREE EMAIL VERIFICATION",
     price: "",
@@ -71,7 +67,7 @@ const data = [
     stock: "",
   },
   {
-    img: { item1 },
+    img: "https://imagedelivery.net/95QNzrEeP7RU5l5WdbyrKw/f388b543-6406-41b5-e857-301f43843e00/shopitem",
     title:
       "Discord Token AIO Verifier (Email & Phone) - WITH FREE EMAIL VERIFICATION",
     price: "19.99",
@@ -79,7 +75,7 @@ const data = [
     stock: "~",
   },
   {
-    img: { item1 },
+    img: "https://imagedelivery.net/95QNzrEeP7RU5l5WdbyrKw/2bea13a5-8750-45c2-5373-13393363cb00/shopitem",
     title:
       "Discord Token AIO Verifier (Email & Phone) - WITH FREE EMAIL VERIFICATION",
     price: "13.99",
@@ -87,7 +83,7 @@ const data = [
     stock: "~",
   },
   {
-    img: { item1 },
+    img: "https://imagedelivery.net/95QNzrEeP7RU5l5WdbyrKw/483c9d74-6f4f-46bb-1dc1-902ca558f400/shopitem",
     title:
       "Discord Token AIO Verifier (Email & Phone) - WITH FREE EMAIL VERIFICATION",
     price: "",
@@ -95,7 +91,7 @@ const data = [
     stock: "",
   },
   {
-    img: { item1 },
+    img: "https://imagedelivery.net/95QNzrEeP7RU5l5WdbyrKw/f388b543-6406-41b5-e857-301f43843e00/shopitem",
     title:
       "Discord Token AIO Verifier (Email & Phone) - WITH FREE EMAIL VERIFICATION",
     price: "19.99",

@@ -13,9 +13,11 @@
 .fs20 {
     font-size: 20px;
 }
+
 .tile.minimized.selected {
     background-color: #722d37;
 }
+
 #quick_stats>ul,
 #shards_stats>ul,
 #quick_stats_premium>ul {
@@ -47,7 +49,8 @@
 }
 
 .bots_tiles_minimized .tile {
-    min-width: 280px !important;
+    max-width: 280px !important;
+    width: 100% !important;
 }
 
 .tile {
@@ -107,40 +110,49 @@
 
 .searchbar {
     padding: 6px 12px;
-    background-color:#ad3d4b;
+    background-color: #ad3d4b;
     border-style: none;
     font-family: 'gt_walsheim_pro';
-    min-width: 360px;
+    max-width: 360px;
+    width: 100%;
 }
+
 .tWhite {
     color: white !important;
 }
+
 .fs18 {
     font-size: 18px;
 }
+
 .sRadius {
     border-radius: 3px;
 }
 
 
-.shard_ul_tiles{
+.shard_ul_tiles {
     display: flex;
     flex-wrap: wrap
 }
+
 #shards_tiles .tile.small .tile_title {
     display: flex;
     justify-content: space-between;
 }
 
-.tile .tile_title, .tile .tile_info {
+.tile .tile_title,
+.tile .tile_info {
     margin-bottom: 10px;
 }
+
 .fs16 {
     font-size: 16px;
 }
+
 .tile .tile_title span {
     vertical-align: middle;
 }
+
 .tile .tile_title span {
     max-width: 74%;
     display: inline-block;
@@ -149,7 +161,9 @@
     text-overflow: ellipsis;
 }
 
-#quick_stats > ul, #shards_stats > ul, #quick_stats_premium > ul {
+#quick_stats>ul,
+#shards_stats>ul,
+#quick_stats_premium>ul {
     display: flex !important;
     flex-wrap: wrap;
     justify-content: start;
@@ -166,9 +180,11 @@ element.style {
     background-color: var(--black_d);
     display: block;
 }
+
 #shards_tiles .tile {
     /* min-width: 253px !important; */
 }
+
 .tile.small {
     padding: 15px;
     margin: 0 5px 5px 0;
@@ -180,7 +196,20 @@ element.style {
 
 
 
+.tile.small .tile_info ul::before {
+    content: 'shard info';
+}
 
+.tile .tile_info ul::before,
+.tile .tile_info li strong {
+    font-weight: 700;
+}
+
+.tile .invite,
+.tile .tile_info ul::before {
+    font-size: 14px;
+    text-transform: uppercase;
+}
 
 
 
