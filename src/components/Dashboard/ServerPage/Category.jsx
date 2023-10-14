@@ -3,11 +3,11 @@ import React from "react";
 const Category = () => {
   return (
     <>
-      <div className="text-center">
-        <button className="category_btn me-3">Category 1</button>
-        <button className="category_btn me-3">Category 2</button>
-        <button className="category_btn me-3">Category 3</button>
-        <button className="category_btn me-3">Category 4</button>
+      <div className="text-center mt-5">
+        <button className="btn btn-outline-light category_btn me-3">Category 1</button>
+        <button className="btn btn-outline-light category_btn me-3">Category 2</button>
+        <button className="btn btn-outline-light category_btn me-3">Category 3</button>
+        <button className="btn btn-outline-light category_btn me-3">Category 4</button>
       </div>
 
       <div className="setting_wrapper1">
@@ -20,7 +20,7 @@ const Category = () => {
         </div>
 
         <label class="switch">
-          <input type="checkbox" />
+          <input type="checkbox" defaultChecked={true} />
           <span class="slider round"></span>
         </label>
       </div>

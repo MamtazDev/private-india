@@ -25,7 +25,9 @@ const DefaultChannel = () => {
           <p>DJ Role</p>
           <input type="text" placeholder="Enter role name" />
         </div>
-        <button className="btn btn-dark m-3 btn_lg">Save</button>
+        <button className="btn btn_outline_dark m-3 btn_lg">
+          <a href="">Save</a>
+        </button>
       </div>
     </>
   );

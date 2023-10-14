@@ -58,7 +58,7 @@ const Sidebar3 = () => {
               <Link to="/server/commands">Commands</Link>
             </h6>
           </Link>
-          <Link to="/" className="nav-option option1">
+          <Link to="#" className="nav-option option1">
             <p>
               <i class="fa-brands fa-product-hunt"></i>
             </p>

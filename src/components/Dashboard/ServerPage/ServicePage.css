@@ -1,10 +1,11 @@
 .setting_header h3 {
     text-align: center !important;
-    color:#fff;
+    color: #fff;
     font-family: Roboto;
     font-size: 40px;
     font-style: normal;
     font-weight: 700 !important;
+    padding-top: 20px;
 }
 
 .server_container {
@@ -20,7 +21,9 @@
     align-items: center;
     width: 50%;
     border-radius: 6px;
-    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #fd1d1d, #6a023b) 1;
     padding: 16px;
     margin: auto;
     margin-top: 40px;
@@ -34,8 +37,7 @@
     border-radius: 6px;
     border-width: 2px;
     border-style: solid;
-    border-image: linear-gradient(to right,#fd1d1d,#6a023b) 1;
-    /* width: 100% !important; */
+    border-image: linear-gradient(to right, #fd1d1d, #6a023b) 1;
     padding: 16px;
     margin: auto;
     margin-top: 40px;
@@ -47,15 +49,16 @@
 .border_none {
     border: none;
     display: flex;
-    padding: 2px 4px;
+    padding: 5px 5px;
     justify-content: center;
     align-items: center;
     gap: 2px;
     margin-bottom: 8px;
+    border-radius: 4px;
 }
 
 .setting_wrapper h4 {
-    color:#fff;
+    color: #fff;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -64,7 +67,7 @@
 }
 
 .setting_wrapper p {
-    color:#fff;
+    color: #fff;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -72,7 +75,7 @@
 }
 
 .setting_wrapper1 h4 {
-    color:#fff;
+    color: #fff;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -81,7 +84,7 @@
 }
 
 .setting_wrapper1 p {
-    color:#fff;
+    color: #fff;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -129,7 +132,8 @@
 }
 
 input:checked+.slider {
-    background-color: #2196F3;
+    background-color: #fd1d1d;
+
 }
 
 input:focus+.slider {
@@ -157,7 +161,7 @@ input:checked+.slider:before {
 
 /* default channel section */
 .default_wrapper p {
-    color:#fff;
+    color: #fff;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -169,10 +173,10 @@ input:checked+.slider:before {
     max-width: 600px;
     width: 100% !important;
     padding: 8px 12px;
-    height: 36px !important;
+    height: 47px !important;
     border-radius: 6px;
-    border: 1px solid rgba(0, 0, 0, 0.10);
-    background: #FFF;
+    border: 1px solid grey;
+    background: transparent;
 }
 
 .default_wrapper {
@@ -196,19 +200,19 @@ input:checked+.slider:before {
 
 /* category section */
 .category_btn {
-    border: none;
+    /* border: none; */
     padding: 14.222px;
-    border-radius: 10.667px;
-    background: rgba(217, 217, 217, 0.50);
+    border-radius: 4.667px;
+    /* background: rgba(217, 217, 217, 0.50); */
 }
 
 .reset_button {
     border: none;
-    background-color: red;
+    /* background-color: red; */
     padding: 12px;
     border-radius: 8px;
     background: #F00;
-    color:#fff;
+    color: #fff;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -217,7 +221,7 @@ input:checked+.slider:before {
 }
 
 .danger_zoner {
-    color:#fff;
+    color: #fff;
     font-family: Roboto;
     font-size: 40px;
     font-style: normal;
@@ -240,9 +244,10 @@ input:checked+.slider:before {
 }
 
 @media(max-width:1023px) {
-    .category_btn{
+    .category_btn {
         margin-bottom: 10px;
     }
+
     .default_wrapper input {
         width: 300px;
         /* width: 100%; */

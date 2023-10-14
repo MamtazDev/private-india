@@ -17,7 +17,7 @@ const Setting = () => {
           </div>
 
           <label class="switch">
-            <input type="checkbox" />
+            <input type="checkbox" defaultChecked={true}   />
             <span class="slider round"></span>
           </label>
         </div>

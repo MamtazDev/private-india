@@ -17,7 +17,7 @@ const ServerList = () => {
       <div className="serverlist">
         {data.map((item) => (
           <div className="server_content">
-            <Link to="/">
+            <Link to="/server/setting">
               <img src={serverimg} alt="" />
             </Link>
             <p>{item.title}</p>
