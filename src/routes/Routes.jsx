@@ -13,6 +13,7 @@ import Payments from "./../components/Dashboard/Overview/Payments";
 import Home from "../components/pages/Home/Home";
 import Shop from "../components/pages/Shop/Shop/Shop";
 import Commands from "../components/pages/Commands/Commands";
+import SProfile from "../components/Dashboard/DashMyself/SpotifyProfile/SProfile";
 
 export const router = createBrowserRouter([
   {
@@ -66,6 +67,10 @@ export const router = createBrowserRouter([
       {
         path: "/dashboard/spotify",
         element: <SpotifyProfile />,
+      },
+      {
+        path: "/dashboard/lastfm",
+        element: <SProfile />,
       },
     ],
   },

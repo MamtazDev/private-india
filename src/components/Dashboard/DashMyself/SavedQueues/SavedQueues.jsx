@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./SavedQueues.css";
 import squareup from "../../../../assets/squareup.png";
 import squaredown from "../../../../assets/sqd.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const SavedQueues = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       <div className="favourites_container mb-5 ">
@@ -22,7 +29,11 @@ const SavedQueues = () => {
               Your Saved <span>Queues</span>
             </p>
             {[1, 2, 3, 4, 5, 6].map((item) => (
-              <div className="queues_parent">
+              <div
+                className="queues_parent"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
                 <div className="track_container">
                   <div className="saved_ques">
                     <p>Saved Queue {item} </p>
@@ -42,7 +53,11 @@ const SavedQueues = () => {
               Tracks In <span>Saved Queue</span>
             </p>
             {[1, 2, 3, 4, 5, 6].map((item) => (
-              <div className="queues_parent">
+              <div
+                className="queues_parent"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
                 <div className="track_container">
                   <div className="saved_ques">
                     <p>Track {item} </p>

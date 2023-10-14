@@ -54,7 +54,6 @@ const Sidebar2 = () => {
           <Link to="/dashboard/overview" className="nav-option option1">
             <p>
               <Link to="/dashboard/overview">
-                
                 <i class="fa-solid fa-music"></i>
               </Link>
             </p>
@@ -72,10 +71,9 @@ const Sidebar2 = () => {
               <Link to="/dashboard/spotify">Spotify</Link>
             </h6>
           </Link>
-          <Link to="/" className="nav-option option1">
+          <Link to="/dashboard/lastfm" className="nav-option option1">
             <p>
-              <Link to="/">
-                
+              <Link to="/dashboard/lastfm">
                 <img src={icon1} alt="" />
               </Link>
             </p>
@@ -83,9 +81,9 @@ const Sidebar2 = () => {
               Last.fm
             </h6>
           </Link>
-          <Link to="/" className="nav-option option1">
+          <Link to="#" className="nav-option option1">
             <p>
-              <Link to="/">
+              <Link to="#">
                 <img src={icon2} alt="" />
               </Link>
             </p>
@@ -106,7 +104,6 @@ const Sidebar2 = () => {
           <Link to="/dashboard/favourites" className="nav-option option1">
             <p>
               <Link to="/dashboard/favourites">
-                
                 <img src={icon4} alt="" />
               </Link>
             </p>
