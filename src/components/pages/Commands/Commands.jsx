@@ -12,6 +12,7 @@ const Commands = () => {
 
   return (
     <div className="mtop_100" style={{ backgroundColor: "black" }}>
+      <h3 className="bot_title"> Bot status</h3>
       <div className="commands_bg content_master sRadius">
         <div id="quick_stats">
           <h3 className="tWhite fs20 fwBold">Quick Stats</h3>

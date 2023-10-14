@@ -10,10 +10,10 @@ const MyProducts = () => {
       </div>
       <div className="text-center">
         <button type="button" className="btn btn_secondary me-2">
-          Server
+          <a href="">Server</a>
         </button>
         <button type="button" className="btn btn_secondary me-2">
-          Personal
+          <a href="">Personal</a>
         </button>
       </div>
       <Bundles />

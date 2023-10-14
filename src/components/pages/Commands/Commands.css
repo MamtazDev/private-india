@@ -8,6 +8,14 @@
     background-color: #342124;
 
 }
+.bot_title{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 32px;
+    line-height: 27px;
+    font-weight: 600;
+}
 
 .sRadius {
     border-radius: 3px;

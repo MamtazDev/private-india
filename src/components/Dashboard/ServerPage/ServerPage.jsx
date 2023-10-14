@@ -6,8 +6,8 @@ import Category from "./Category";
 const ServerPage = () => {
   return (
     <div className="server_container">
-      <Setting />
-      <DefaultChannel />
+      {/* <Setting />
+      <DefaultChannel /> */}
       <Category />
     </div>
   );

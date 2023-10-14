@@ -32,7 +32,10 @@
     align-items: center;
     width: 30%;
     border-radius: 6px;
-    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right,#fd1d1d,#6a023b) 1;
+    /* width: 100% !important; */
     padding: 16px;
     margin: auto;
     margin-top: 40px;

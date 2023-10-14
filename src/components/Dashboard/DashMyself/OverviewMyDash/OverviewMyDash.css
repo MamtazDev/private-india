@@ -67,12 +67,14 @@
     outline: none;
     color: white;
 }
+
 .btn_outline_dark a {
     position: relative;
     z-index: 2;
     color: #fff;
     text-decoration: none;
 }
+
 .btn_outline_dark:before {
     position: absolute !important;
     content: '';
@@ -112,6 +114,12 @@
 
 .overview_card {
     padding: 12px 0 !important;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: start;
+    align-items: start;
 }
 
 .overview_container {

@@ -1,4 +1,5 @@
 import React from "react";
+import DefaultChannel from "../DefaultChannel";
 const Setting = () => {
   return (
     <>
@@ -49,6 +50,7 @@ const Setting = () => {
           </label>
         </div>
       </div>
+      <DefaultChannel />
     </>
   );
 };

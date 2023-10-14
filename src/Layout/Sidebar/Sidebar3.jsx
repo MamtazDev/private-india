@@ -42,7 +42,7 @@ const Sidebar3 = () => {
             </div>
           </div>
           {/* profile div */}
-          <Link to="/" className="nav-option option1">
+          <Link to="/server/setting" className="nav-option option1">
             <p>
               <i class="fa-solid fa-user"></i>
             </p>
@@ -50,12 +50,12 @@ const Sidebar3 = () => {
               Settings
             </h6>
           </Link>
-          <Link to="/" className="nav-option option1">
+          <Link to="/server/commands" className="nav-option option1">
             <p>
               <i class="fa-solid fa-server"></i>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
-              <Link to="/">Commands</Link>
+              <Link to="/server/commands">Commands</Link>
             </h6>
           </Link>
           <Link to="/" className="nav-option option1">

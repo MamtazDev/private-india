@@ -121,7 +121,9 @@
     max-width: 360px;
     width: 100%;
 }
-
+.searchbar::placeholder{
+    color: white;
+}
 .tWhite {
     color: white !important;
 }

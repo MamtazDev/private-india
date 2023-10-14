@@ -14,6 +14,8 @@ import Home from "../components/pages/Home/Home";
 import Shop from "../components/pages/Shop/Shop/Shop";
 import Commands from "../components/pages/Commands/Commands";
 import SProfile from "../components/Dashboard/DashMyself/SpotifyProfile/SProfile";
+import Setting from "../components/Dashboard/ServerPage/Setting/Setting";
+import Category from "../components/Dashboard/ServerPage/Category";
 
 export const router = createBrowserRouter([
   {
@@ -34,6 +36,10 @@ export const router = createBrowserRouter([
     path: "/dash",
     element: <Layout />,
     children: [
+      {
+        path: "/dash",
+        element: <ServerItems />,
+      },
       {
         path: "/dash/server_list",
         element: <ServerItems />,
@@ -81,6 +87,14 @@ export const router = createBrowserRouter([
       {
         path: "/server",
         element: <ServerPage />,
+      },
+      {
+        path: "/server/setting",              
+        element: <Setting />,
+      },
+      {
+        path: "/server/commands",
+        element: <Category           />,
       },
     ],
   },
