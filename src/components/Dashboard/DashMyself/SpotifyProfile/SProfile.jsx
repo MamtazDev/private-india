@@ -3,9 +3,9 @@ import product from "../../../../assets/01.png";
 
 const SProfile = () => {
   return (
-    <>
-      <div className="spotify_profile_container">
-        <div className="profile_section">
+    <div className="container mt-5">
+      <div className="row ">
+        <div className="col-lg-5 profile_section">
           <h4>Spotify Profile</h4>
           <button
             className="p-2 mt-2 mb-2"
@@ -14,15 +14,16 @@ const SProfile = () => {
             Premium
           </button>
           <p>Connect your Spotify account to access additional features.</p>
-          <button className="btn btn_outline_dark  mt-3 me-3 btn_lg">
-            <a href=""> Connect Spotify</a>
-          </button>
-          <button className="btn btn_outline_dark  me-3 mt-3 btn_lg">
-            <a href="">Disconnect</a>
-          </button>
+          <div className="sp_buttons">
+            <button className="btn btn_outline_dark  mt-3 me-3 btn_lg">
+              <a href=""> Connect Spotify</a>
+            </button>
+            <button className="btn btn_outline_dark  me-3 mt-3 btn_lg">
+              <a href="">Disconnect</a>
+            </button>
+          </div>
         </div>
-
-        <div>
+        <div className="col-lg-7">
           <div
             class="spotify_profile_card card mb-3 w-100"
             style={{ maxWidth: "520px" }}
@@ -41,7 +42,7 @@ const SProfile = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

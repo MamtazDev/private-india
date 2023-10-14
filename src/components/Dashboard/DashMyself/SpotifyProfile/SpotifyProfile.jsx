@@ -12,7 +12,7 @@ const SpotifyProfile = () => {
         <TopTracks />
         <TopArticles />
         <ManageUser />
-        <footer>© 2021 Uzox Music Bot. All rights reserved.</footer>
+        <footer className="mt-5 pt-5">© 2021 Uzox Music Bot. All rights reserved.</footer>
       </div>
     </>
   );

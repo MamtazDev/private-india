@@ -3,13 +3,15 @@ import product from "../../../../assets/01.png";
 const TopTracks = () => {
   return (
     <>
-      <div className=" spotify_profile_container1 ">
-        <div className=" profile_section">
+      {/* <div className="row spotify_profile_container1 "> */}
+     <div className="container mt-5 pt-5">
+     <div className="row ">
+        <div className="col-lg-5 profile_section">
           <h4>Top Tracks</h4>
 
           <p>Your favourite tracks on Spotify.</p>
         </div>
-        <div>
+        <div className="col-lg-7">
           <div
             class="spotify_profile_card card  mb-3 w-100"
             style={{ maxWidth: "520px" }}
@@ -50,6 +52,7 @@ const TopTracks = () => {
           </div>
         </div>
       </div>
+     </div>
     </>
   );
 };
