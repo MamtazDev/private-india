@@ -64,7 +64,8 @@ a {
 }
 
 .container-fluid {
-  width: 100vw !important;
+  /* width: 100vw !important; */
+  overflow-x: hidden !important;
   padding: 0;
 }
 

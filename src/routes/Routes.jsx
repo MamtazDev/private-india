@@ -16,6 +16,7 @@ import Commands from "../components/pages/Commands/Commands";
 import SProfile from "../components/Dashboard/DashMyself/SpotifyProfile/SProfile";
 import Setting from "../components/Dashboard/ServerPage/Setting/Setting";
 import Category from "../components/Dashboard/ServerPage/Category";
+import LastFM from "../components/Dashboard/DashMyself/SpotifyProfile/LastFM";
 
 export const router = createBrowserRouter([
   {
@@ -76,7 +77,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/dashboard/lastfm",
-        element: <SProfile />,
+        element: <LastFM />,
       },
     ],
   },
@@ -89,12 +90,12 @@ export const router = createBrowserRouter([
         element: <ServerPage />,
       },
       {
-        path: "/server/setting",              
+        path: "/server/setting",
         element: <Setting />,
       },
       {
         path: "/server/commands",
-        element: <Category           />,
+        element: <Category />,
       },
     ],
   },

@@ -1,5 +1,4 @@
 import React from "react";
-import serverimg from "../../../../assets/g7.jpg";
 import "./ServerList.css";
 import { Link } from "react-router-dom";
 const data = [

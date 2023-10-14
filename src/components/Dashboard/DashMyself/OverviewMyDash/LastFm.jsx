@@ -3,10 +3,9 @@ import cardImg from "../../../../assets/g7.jpg";
 import key from "../../../../assets/key.png";
 
 const LastFm = () => {
-  
   return (
     <>
-      <div className="saved_queues_left_heading">
+      <div className="saved_queues_left_heading"> 
         <h2>Last.fm</h2>
         <p>
           Login to your Last.fm account to access your profile and scrobble

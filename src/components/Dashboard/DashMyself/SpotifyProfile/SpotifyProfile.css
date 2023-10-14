@@ -1,18 +1,17 @@
 .spotify_profile_container {
-    margin-top: 100px;
+    /* margin-top: 100px; */
     display: flex;
     width: 100%;
     justify-content: center;
     gap: 60px;
     align-items: center;
-    padding: 60px 170px !important;
+    /* padding: 60px 170px !important; */
     flex-wrap: wrap;
 
 }
 
 .spotify_profile_container1 {
     display: flex;
-    /* width: 100%; */
     justify-content: space-between;
     gap: 60px;
     align-items: center;
@@ -20,6 +19,35 @@
     flex-wrap: wrap;
 
 }
+
+.spotify_profile_container2 {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 60px; */
+    flex-direction: column;
+    align-items: center;
+    /* padding: 60px 170px !important; */
+    flex-wrap: wrap;
+
+}
+
+.lastfm_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+    /* padding: 60px 170px !important; */
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
 
 .spotify_profile_body {
     width: 65%;
@@ -63,7 +91,7 @@
 }
 
 .profile_section h4 {
-    color:#fff;
+    color: #fff;
     font-family: Roboto;
     font-size: 40px;
     font-style: normal;
@@ -88,7 +116,7 @@
 
 footer {
     padding: 0px 0px 60px;
-    color:#fff;
+    color: #fff;
     text-align: center;
     font-family: Roboto;
     font-size: 20px;
@@ -125,6 +153,11 @@ footer {
         margin-right: 20px;
     }
 
+    .spotify_profile_container2 {
+        padding: 0px 0 60px 0 !important;
+        margin-right: 20px;
+    }
+
     .card-body {
         margin-top: 20px !important;
     }
@@ -135,4 +168,122 @@ footer {
         display: flex;
         flex-direction: column;
     }
+}
+
+/* toggle button */
+.scrobble_text {
+    margin-right: -55%;
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+
+#app-cover {
+    margin-right: -53%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.toggle-button-cover {
+    display: table-cell;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.button-cover {
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+.button-cover:before {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #d7e3e3;
+    font-size: 12px;
+    line-height: 1;
+    padding: 5px;
+}
+
+.button-cover,
+.knobs,
+.layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.button {
+    position: relative;
+    top: 50%;
+    width: 74px;
+    height: 36px;
+    margin: -20px auto 0 auto;
+    overflow: hidden;
+}
+
+.button.r,
+.button.r .layer {
+    border-radius: 100px;
+}
+
+.button.b2 {
+    border-radius: 2px;
+}
+
+.checkbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.knobs {
+    z-index: 2;
+}
+
+.layer {
+    width: 100%;
+    background-color: #ebf7fc;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+
+/* Button 1 */
+#button-1 .knobs:before {
+    content: "True";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    padding: 9px 4px;
+    background-color: #03a9f4;
+    border-radius: 50%;
+    transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+}
+
+#button-1 .checkbox:checked+.knobs:before {
+    content: "False";
+    left: 42px;
+    background-color: #f44336;
+}
+
+#button-1 .checkbox:checked~.layer {
+    background-color: #fcebeb;
+}
+
+#button-1 .knobs,
+#button-1 .knobs:before,
+#button-1 .layer {
+    transition: 0.3s ease all;
 }
