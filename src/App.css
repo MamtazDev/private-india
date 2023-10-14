@@ -77,9 +77,9 @@ a {
   height: 34px;
 }
 
-input:focus-visible {
+/* input:focus-visible {
   outline: 0 !important;
-}
+} */
 
 .switch input {
   opacity: 0;

@@ -1,5 +1,5 @@
 .saved_ques p {
-    color:#fff;
+    color: #fff;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -18,7 +18,7 @@
 }
 
 .ques_header {
-    color:#fff;
+    color: #fff;
     font-family: Roboto;
     font-size: 35px;
     font-style: normal;
@@ -26,14 +26,36 @@
     margin-bottom: 40px;
 }
 
+.ques_header span {
+    background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.fav_header h3 span {
+    background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.fav_header input{
+    color: white !important;
+}
 @media(max-width:1024px) {
-    .saved_queue_container{
+    .saved_queue_container {
         padding: 0 !important;
         margin-bottom: 20px;
     }
-    .fav_header{
+
+    .fav_header {
         margin-right: 15px !important;
     }
+
     .queues_parent {
         max-width: 410px !important;
         width: 100%;
@@ -55,7 +77,7 @@
     }
 
     .ques_header {
-        color:#fff;
+        color: #fff;
         font-family: Roboto;
         font-size: 30px;
         font-style: normal;
