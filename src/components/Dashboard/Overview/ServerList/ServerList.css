@@ -7,6 +7,7 @@
     margin-bottom: 10px;
 
 }
+
 .serverlist {
     display: flex;
     gap: 40px;
@@ -27,7 +28,7 @@
 
 .server_title p {
     display: block;
-    color:#fff;
+    color: #fff;
     font-family: Roboto;
     font-size: 48px;
     font-style: normal;

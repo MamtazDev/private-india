@@ -10,10 +10,10 @@ const Layout = () => {
       <Header />
       <div class="w-100 container-fluid">
         <div className="row" style={{overflow:"hidden"}}>
-          <div className="col-1 sidebar_bg_color">
+          <div className="col-2 sidebar_bg_color">
             <Sidebar />
           </div>
-          <div className="col-11 mtop_100 outlet_bg_set">
+          <div className="col-10 mtop_100 outlet_bg_set overflow_hidden">
             <Outlet />
           </div>
         </div>

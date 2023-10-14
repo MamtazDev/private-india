@@ -18,7 +18,10 @@ const ServerList = () => {
         {data.map((item) => (
           <div className="server_content">
             <Link to="/server/setting">
-              <img src={serverimg} alt="" />
+              <img
+                src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
             </Link>
             <p>{item.title}</p>
           </div>

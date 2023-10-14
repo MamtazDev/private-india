@@ -15,7 +15,7 @@
 .sidebar_content {
     width: 250px;
     height: 100vh !important;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .nav_notCollapse {
