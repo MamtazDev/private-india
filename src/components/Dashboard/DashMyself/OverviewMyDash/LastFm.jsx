@@ -3,17 +3,21 @@ import cardImg from "../../../../assets/g7.jpg";
 import key from "../../../../assets/key.png";
 
 const LastFm = () => {
+  
   return (
     <>
       <div className="saved_queues_left_heading">
         <h2>Last.fm</h2>
-        <p>Login to your Last.fm account to access your profile and scrobble music.</p>
-        <button className="btn btn-outline-dark me-3 mt-3 btn_lg">
-              Login
-            </button>
-            <button className="btn btn-outline-dark me-3 mt-3 btn_lg">
-              Logout
-            </button>
+        <p>
+          Login to your Last.fm account to access your profile and scrobble
+          music.
+        </p>
+        <button className="btn btn_outline_dark me-3 mt-3 btn_lg">
+          <a href="">Login</a>
+        </button>
+        <button className="btn btn_outline_dark me-3 mt-3 btn_lg">
+          <a href="">Logout</a>
+        </button>
       </div>
       {/* card */}
       <div className="card card_width_set">

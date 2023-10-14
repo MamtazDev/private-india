@@ -1,14 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Bundles/Bundles.css";
 import product from "../../../assets/01.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const AddsOnes = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       <p className="small_header">Add-Ons</p>
 
       <div className="bundles_card row gap-5  w-100 mt-5">
-        <div class="col-md-6 col-12 card mb-3 " style={{ maxWidth: "520px" }}>
+        <div
+          class="col-md-6 col-12 card mb-3 "
+          data-aos="fade-right"
+          data-aos-duration="2000"
+          style={{ maxWidth: "520px" }}
+        >
           <div class="row">
             <div class="col-md-4 col-12 product_img">
               <img src={product} class="card-img" alt="..." />
@@ -28,7 +39,12 @@ const AddsOnes = () => {
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-12 card mb-3" style={{ maxWidth: "520px" }}>
+        <div
+          class="col-md-6 col-12 card mb-3"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          style={{ maxWidth: "520px" }}
+        >
           <div class="row no-gutters">
             <div class="col-md-4 product_img">
               <img src={product} class="card-img" alt="..." />
@@ -50,7 +66,12 @@ const AddsOnes = () => {
         </div>
       </div>
       <div className="bundles_card row gap-5 w-100 mt-4">
-        <div class="col-md-6 col-12 card mb-3 " style={{ maxWidth: "520px" }}>
+        <div
+          class="col-md-6 col-12 card mb-3 "
+          data-aos="fade-right"
+          data-aos-duration="2000"
+          style={{ maxWidth: "520px" }}
+        >
           <div class="row">
             <div class="col-md-4 col-12 product_img">
               <img src={product} class="card-img" alt="..." />
@@ -70,7 +91,12 @@ const AddsOnes = () => {
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-12 card mb-3" style={{ maxWidth: "520px" }}>
+        <div
+          class="col-md-6 col-12 card mb-3"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          style={{ maxWidth: "520px" }}
+        >
           <div class="row no-gutters">
             <div class="col-md-4 product_img">
               <img src={product} class="card-img" alt="..." />
@@ -91,7 +117,6 @@ const AddsOnes = () => {
           </div>
         </div>
       </div>
-
     </>
   );
 };

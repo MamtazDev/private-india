@@ -12,23 +12,19 @@
 .sRadius {
     border-radius: 3px;
 }
-ul li{
+
+ul li {
     list-style: none;
 }
 
 .content_master>div>h3 {
-    margin: 10px 0;
+    margin: 10px 0% !important;
 }
-
-/* #quick_stats>ul {
-    display: flex;
-    flex-wrap: wrap !important;
-    justify-content: start;
-} */
-
-/* .bots_tiles {
-    flex-wrap: wrap !important;
-} */
+.bots_tiles>li:hover{
+    transform: scale(1.04) !important;
+    transition: .3s ease-in-out !important;
+    cursor: pointer;
+}
 
 .content_master ul {
     list-style: none;
@@ -38,7 +34,7 @@ ul li{
 
 .bots_tiles {
     display: flex;
-    justify-content: start;
+    justify-content: start !important;
 
 }
 

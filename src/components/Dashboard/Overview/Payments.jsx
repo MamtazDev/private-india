@@ -2,11 +2,11 @@ import React from "react";
 
 const Payments = () => {
   return (
-    <div>
-      <p className="small_footer">
+    <>
+      <p className="small_footer mt-5 pt-5">
         Stripe address element here for billing address
       </p>
-    </div>
+    </>
   );
 };
 

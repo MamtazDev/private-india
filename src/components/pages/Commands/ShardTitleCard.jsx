@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const shardData = [
   {
     shard: "[2/2656]",
@@ -123,6 +126,10 @@ const shardData = [
 ];
 
 const ShardTitleCard = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       <div>
@@ -136,6 +143,8 @@ const ShardTitleCard = () => {
         <ul id="shard_tiles" className="shard_ul_tiles">
           {shardData.map((data) => (
             <li
+              data-aos="fade-up"
+              data-aos-duration="2000"
               class="tile small sRadius"
               style={{ backgroundColor: "black", display: "block" }}
               data_shard_id="0"

@@ -9,7 +9,7 @@ const Layout = () => {
     <div className="">
       <Header />
       <div class="w-100 container-fluid">
-        <div className="row">
+        <div className="row" style={{overflow:"hidden"}}>
           <div className="col-1 sidebar_bg_color">
             <Sidebar />
           </div>

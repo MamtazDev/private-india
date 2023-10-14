@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Shop.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const ShopCard = ({ item }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
-      <div class="card  sellix-card m-5" style={{ width: "100%" }}>
+      <div
+        class="card  sellix-card m-5 "
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        style={{ width: "100%" }}
+      >
         <div className="sellix-card-image">
           <img src={item.img} class="card-img-top" alt="..." />
           {/* <img src= {`../../../../assets/${item.img}`} class="card-img-top" alt="..." /> */}

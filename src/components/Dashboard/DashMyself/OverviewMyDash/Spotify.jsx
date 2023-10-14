@@ -1,24 +1,34 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./OverviewMyDash.css";
 import cardImg from "../../../../assets/g7.jpg";
 import key from "../../../../assets/key.png";
 import LastFm from "./LastFm";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Spotify = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <div className="outlet_container1 ">
-        <div className="saved_queue_container">
+        <div
+          className="saved_queue_container"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           <div className="saved_queues_left_heading">
             <h2>Spotify</h2>
             <p>
               Login to your Last.fm account to access your profile and scrobble
               music.
             </p>
-            <button className="btn btn-outline-dark me-3 mt-3 btn_lg">
-              Login
+            <button className="btn btn_outline_dark me-3 mt-3 btn_lg">
+              <a href=""> Login</a>
             </button>
-            <button className="btn btn-outline-dark me-3 mt-3 btn_lg">
-              Logout
+            <button className="btn btn_outline_dark me-3 mt-3 btn_lg">
+              <a href="">Logout</a>
             </button>
           </div>
           {/* card */}
@@ -31,7 +41,11 @@ const Spotify = () => {
             </div>
           </div>
         </div>
-        <div className="saved_queue_container">
+        <div
+          className="saved_queue_container"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <LastFm />
         </div>
       </div>

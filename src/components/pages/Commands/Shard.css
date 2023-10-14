@@ -18,6 +18,11 @@
     background-color: #722d37;
 }
 
+.tile.minimized:hover {
+    background-color: #722d37 !important;
+    transition-duration: 0.5s !important;
+}
+
 #quick_stats>ul,
 #shards_stats>ul,
 #quick_stats_premium>ul {
@@ -43,7 +48,7 @@
 .tile.minimized {
     cursor: pointer;
     padding: 6px 20px !important;
-    background-color: #722d37;
+    background-color: #ad3d4b;
     transition: all 300ms ease;
     margin: 0 10px 10px 0;
 }

@@ -3,7 +3,8 @@
     font-size: 14px;
     font-weight: 400 !important;
 }
-.sellix-card-image img{
+
+.sellix-card-image img {
     width: 100% !important;
     height: 200px !important;
     border-top-left-radius: 0.5rem;
@@ -23,6 +24,13 @@
     padding: 0;
     height: 350px;
 }
+
+.sellix-card:hover {
+    transform: scale(1.04) !important;
+    transition: .4s ease-in !important;
+    cursor: pointer;
+}
+
 .sellix-card-description {
     display: flex;
     justify-content: center;

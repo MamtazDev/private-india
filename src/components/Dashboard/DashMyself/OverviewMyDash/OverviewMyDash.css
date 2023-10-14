@@ -1,5 +1,5 @@
 .outlet_container {
-    margin-top: 100px;
+    /* margin-top: 100px; */
     width: 100%;
     display: flex;
 }
@@ -12,7 +12,7 @@
 }
 
 .saved_queues_left_heading h2 {
-    color:#fff;
+    color: #fff;
     font-family: Roboto;
     font-size: 40px;
     font-style: normal;
@@ -20,7 +20,7 @@
 }
 
 .saved_queues_left_heading p {
-    color:#fff;
+    color: #fff;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -53,9 +53,49 @@
     min-height: 200px !important;
     border-radius: 6px;
 } */
+.btn_outline_dark {
+    font-size: 1.8rem;
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #fd1d1d, #330220);
+    background: linear-gradient(to right, #fd1d1d, #6a023b);
+    border: none;
+    border-radius: 4px;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all .35s;
+    outline: none;
+    color: white;
+}
+.btn_outline_dark a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+.btn_outline_dark:before {
+    position: absolute !important;
+    content: '';
+    top: 0 !important;
+    left: 0 !important;
+    width: 0 !important;
+    height: 100%;
+    background: red !important;
+    transition: all .35s !important;
+    border-radius: 4px !important;
+    color: white;
+}
+
+.btn_outline_dark:hover {
+    color: #fff;
+}
+
+.btn_outline_dark:hover:before {
+    width: 100% !important;
+}
 
 .overview_card p {
-    color:#fff;
+    color: #fff;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -63,7 +103,7 @@
 }
 
 .overview_card h5 {
-    color:#fff;
+    color: #fff;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -90,6 +130,7 @@
         display: flex;
         flex-direction: column;
     }
+
     .outlet_container1 {
         display: flex;
         flex-direction: column;
