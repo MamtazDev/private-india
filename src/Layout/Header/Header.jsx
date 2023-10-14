@@ -31,7 +31,7 @@ const Header = () => {
                   className="nav-link active"
                   style={{ fontWeight: 400 }}
                   aria-current="page"
-                  to="/"
+                  to="/dashboard/overview"
                 >
                   Home
                 </Link>

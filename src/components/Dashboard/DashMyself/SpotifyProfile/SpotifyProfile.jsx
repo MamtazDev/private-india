@@ -11,15 +11,18 @@ const SpotifyProfile = () => {
         <div className="spotify_profile_container">
           <div className="profile_section">
             <h4>Spotify Profile</h4>
-            <button className="p-1 mt-2 mb-2" style={{ border: "none" }}>
+            <button
+              className="p-2 mt-2 mb-2"
+              style={{ border: "none", borderRadius: "4px" }}
+            >
               Premium
             </button>
             <p>Connect your Spotify account to access additional features.</p>
-            <button className="btn btn-dark mt-3 me-3 btn_lg">
-              Connect Spotify
+            <button className="btn btn_outline_dark  mt-3 me-3 btn_lg">
+              <a href=""> Connect Spotify</a>
             </button>
-            <button className="btn btn-outline-dark me-3 mt-3 btn_lg">
-              Disconnect
+            <button className="btn btn_outline_dark  me-3 mt-3 btn_lg">
+              <a href="">Disconnect</a>
             </button>
           </div>
 

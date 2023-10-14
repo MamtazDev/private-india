@@ -12,7 +12,7 @@
 
 .spotify_profile_container1 {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     justify-content: space-between;
     gap: 60px;
     align-items: center;

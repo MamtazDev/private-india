@@ -61,7 +61,7 @@
     background-color: #fff;
     color: black;
     cursor: pointer;
-    transition: ease-in 0.3s;
+    width: 100%;
 }
 
 @media (min-width:768px) {

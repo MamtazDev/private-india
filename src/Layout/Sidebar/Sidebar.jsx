@@ -43,7 +43,6 @@ const Sidebar = () => {
               )}
             </div>
           </div>
-          {/* profile div */}
           <div
             className={` ${
               sideCollapse ? "sidebar_collapse_profile" : "sidebar_profile"
@@ -58,7 +57,6 @@ const Sidebar = () => {
           <Link to="/dashboard/overview" className="nav-option option1">
             <p>
               <Link to="/dashboard/overview">
-                {" "}
                 <i class="fa-solid fa-user"></i>
               </Link>
             </p>
@@ -66,10 +64,9 @@ const Sidebar = () => {
               <Link to="/dashboard/overview"> Personal Config</Link>
             </h6>
           </Link>
-          <Link to="/server" className="nav-option option1">
+          <Link to="/dash/server_list" className="nav-option option1">
             <p>
-              <Link to="/server">
-                {" "}
+              <Link to="/dash/server_list">
                 <i class="fa-solid fa-server"></i>
               </Link>
             </p>

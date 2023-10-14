@@ -13,11 +13,11 @@ const ManageUser = () => {
           </p>
           <input type="text" placeholder="User ID" />
           <div className="user_buttons">
-            <button className="btn btn-outline-dark mt-3 me-3 btn_lg">
-              Revoke Access
+            <button className="btn btn_outline_dark  mt-3 me-3 btn_lg">
+              <a href=""> Revoke Access</a>
             </button>
-            <button className="btn btn-dark me-3 mt-3 btn_lg">
-              Grant Access
+            <button className="btn btn_outline_dark  me-3 mt-3 btn_lg">
+              <a href=""> Grant Access</a>
             </button>
           </div>
         </div>
@@ -55,7 +55,7 @@ const ManageUser = () => {
                 <img src={product} class="card-img" alt="..." />
               </div>
               <div class="col-md-8 spotify_profile_body1">
-                <div class="card-body  manage_card_body" >
+                <div class="card-body  manage_card_body">
                   <h5 class="card-title mb-0">John Doe</h5>
                   <p>@johndoe</p>
                   <p>Access Granted</p>

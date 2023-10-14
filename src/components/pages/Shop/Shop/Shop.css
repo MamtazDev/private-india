@@ -27,7 +27,7 @@
 
 .sellix-card:hover {
     transform: scale(1.04) !important;
-    transition: .4s ease-in !important;
+    transition: .2s ease-in !important;
     cursor: pointer;
 }
 

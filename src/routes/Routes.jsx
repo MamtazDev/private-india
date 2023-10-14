@@ -1,6 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "../Layout/Layout/Layout";
-import OverView from "../components/Dashboard/Overview/OverView/OverView";
 import Layout2 from "../Layout/Layout/Layout2";
 import Favourites from "../components/Dashboard/DashMyself/Favourites/Favourites";
 import SavedQueues from "./../components/Dashboard/DashMyself/SavedQueues/SavedQueues";
@@ -20,10 +19,6 @@ export const router = createBrowserRouter([
     path: "/",
     element: <Home />,
     children: [
-      {
-        path: "/",
-        element: <OverviewMyDash />,
-      },
       {
         path: "/shop",
         element: <Shop />,
