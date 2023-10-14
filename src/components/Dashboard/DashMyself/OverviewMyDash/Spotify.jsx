@@ -24,11 +24,13 @@ const Spotify = () => {
               Login to your Last.fm account to access your profile and scrobble
               music.
             </p>
+            <a href="/dashboard/spotify">
+              <button className="btn btn_outline_dark me-3 mt-3 btn_lg">
+                <a href="/dashboard/spotify"> Login</a>
+              </button>
+            </a>
             <button className="btn btn_outline_dark me-3 mt-3 btn_lg">
-              <a href=""> Login</a>
-            </button>
-            <button className="btn btn_outline_dark me-3 mt-3 btn_lg">
-              <a href="">Logout</a>
+              <a href="/dashboard/spotify">Logout</a>
             </button>
           </div>
           {/* card */}

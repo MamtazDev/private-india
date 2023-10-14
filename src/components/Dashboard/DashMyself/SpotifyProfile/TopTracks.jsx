@@ -26,7 +26,7 @@ const TopTracks = () => {
                     Track 1 (clickable hyperlink to url)
                   </h5>
                   <p class="card-text">Artist 1 (clickable hyperlink to url)</p>
-                  <button className="border-0 p-1 mt-1">#1</button>
+                  <button className="border-0 p-1 mt-1 number_text" >#1</button>
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@ const TopTracks = () => {
                     Track 2 (clickable hyperlink to url)
                   </h5>
                   <p class="card-text">Artist 1 (clickable hyperlink to url)</p>
-                  <button className="border-0 p-1 mt-1">#2</button>
+                  <button className="border-0 p-1 mt-1 number_text">#2</button>
                 </div>
               </div>
             </div>

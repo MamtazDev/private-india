@@ -24,7 +24,7 @@ const TopArticles = () => {
                   <h5 class="card-title mb-0">
                   Artist 1 (clickable hyperlink to url)
                   </h5>
-                  <button className="border-0 p-1 mt-1">#1</button>
+                  <button className="border-0 p-1 mt-1 number_text">#1</button>
                 </div>
               </div>
             </div>
@@ -42,7 +42,7 @@ const TopArticles = () => {
                   <h5 class="card-title mb-0">
                   Artist 2 (clickable hyperlink to url)
                   </h5>
-                  <button className="border-0 p-1 mt-1">#2</button>
+                  <button className="border-0 p-1 mt-1 number_text">#2</button>
                 </div>
               </div>
             </div>
