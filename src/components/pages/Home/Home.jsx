@@ -6,13 +6,11 @@ const Home = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  console.log("location.pathname", location.pathname)
+  console.log("location.pathname", location.pathname);
 
   useEffect(() => {
-
     location.pathname === "/" && navigate("/dashboard/overview");
-
-  }, [])
+  }, []);
 
   return (
     <>

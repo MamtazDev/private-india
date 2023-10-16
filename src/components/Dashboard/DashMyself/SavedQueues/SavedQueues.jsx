@@ -12,7 +12,7 @@ const SavedQueues = () => {
 
   return (
     <>
-      <div className="favourites_container mb-5 ">
+      <div className="banner favourites_container mb-5 ">
         <div className="fav_header">
           <h3>
             Saved <span>Queues</span>

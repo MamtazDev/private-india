@@ -64,6 +64,7 @@
     width: 100% !important;
     height: 164px !important;
     object-fit: cover;
+    margin-top: 20px;
 }
 
 .spotify_profile_card1 {
@@ -171,13 +172,12 @@ footer {
 }
 
 /* toggle button */
-.scrobble_text {
+/* .scrobble_text {
     margin-bottom: -20px;
     margin-top: 16px;
-    text-align: end;
     padding-right: 19%;
     font-size: 20px;
-}
+} */
 
 #app-cover {
     margin-right: -57%;
@@ -269,7 +269,7 @@ footer {
     position: absolute;
     top: 4px;
     left: 4px;
-    width: 30px;
+    width: 32px;
     height: 30px;
     color: #fff;
     font-size: 10px;
@@ -284,7 +284,7 @@ footer {
 
 #button-1 .checkbox:checked+.knobs:before {
     content: "False";
-    left: 42px;
+    left: 39px;
     background-color: black;
 }
 
@@ -307,4 +307,30 @@ footer {
 
 .number_text {
     border-radius: 4px;
+}
+
+.toggle_container {
+    display: flex;
+    gap: 61%;
+    width: 100%;
+}
+
+.toggle_container h4 {
+    margin-top: 7%;
+}
+
+
+.scrobble_container {
+    position: absolute;
+    right: 3%;
+    top: -67%;
+}
+
+.scrobble_text {
+    margin-bottom: -28px;
+    padding-right: 0;
+    font-size: 14px;
+    margin-top: 41px;
+    color: white;
+    padding-left: 72px;
 }

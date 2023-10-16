@@ -22,7 +22,7 @@ const OverviewMyDash = () => {
             <h2>Saved Queues</h2>
             <p>View your private playlists</p>
             <button className="btn btn_outline_dark me-3 mt-3 btn_lg">
-              <a href="/server/setting"> Settings</a>
+              <a href="/dashboard/savedQues"> Settings</a>
             </button>
           </div>
           <div className="card card_width_set">
@@ -43,7 +43,7 @@ const OverviewMyDash = () => {
             <h2>Favourites</h2>
             <p>View your private playlists</p>
             <button className="btn btn_outline_dark me-3 mt-3 btn_lg">
-              <a href="/server/setting">Settings</a>
+              <a href="/dashboard/favourites">Settings</a>
             </button>
           </div>
           <div className="card card_width_set">
