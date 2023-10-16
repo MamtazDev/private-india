@@ -13,7 +13,6 @@ import Payments from "./../components/Dashboard/Overview/Payments";
 import Home from "../components/pages/Home/Home";
 import Shop from "../components/pages/Shop/Shop/Shop";
 import Commands from "../components/pages/Commands/Commands";
-import SProfile from "../components/Dashboard/DashMyself/SpotifyProfile/SProfile";
 import Setting from "../components/Dashboard/ServerPage/Setting/Setting";
 import Category from "../components/Dashboard/ServerPage/Category";
 import LastFM from "../components/Dashboard/DashMyself/SpotifyProfile/LastFM";

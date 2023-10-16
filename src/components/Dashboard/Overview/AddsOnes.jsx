@@ -22,7 +22,7 @@ const AddsOnes = () => {
         >
           <div class="row">
             <div class="col-md-4 col-12 product_img">
-              <img src={product} class="card-img" alt="..." />
+              <img src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img" alt="..." />
             </div>
             <div class="col-md-8 col-12">
               <div class="card-body">
@@ -47,7 +47,7 @@ const AddsOnes = () => {
         >
           <div class="row no-gutters">
             <div class="col-md-4 product_img">
-              <img src={product} class="card-img" alt="..." />
+              <img src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img" alt="..." />
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -74,7 +74,7 @@ const AddsOnes = () => {
         >
           <div class="row">
             <div class="col-md-4 col-12 product_img">
-              <img src={product} class="card-img" alt="..." />
+              <img src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img" alt="..." />
             </div>
             <div class="col-md-8 col-12">
               <div class="card-body">
@@ -99,7 +99,7 @@ const AddsOnes = () => {
         >
           <div class="row no-gutters">
             <div class="col-md-4 product_img">
-              <img src={product} class="card-img" alt="..." />
+              <img src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img" alt="..." />
             </div>
             <div class="col-md-8">
               <div class="card-body">

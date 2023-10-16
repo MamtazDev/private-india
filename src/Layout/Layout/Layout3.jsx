@@ -8,13 +8,6 @@ const Layout3 = () => {
   return (
     <div className="">
       <Header />
-
-    {/*   <div className=" w-100 layout_container">
-        <div className="w-full">
-          <Sidebar3 />
-        </div>
-        <Outlet className="w-full outlet_height outlet_bg_set" />
-      </div> */}
        <div class="w-100 container-fluid">
         <div class="row">
           <div class="col-2">

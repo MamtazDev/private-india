@@ -1,6 +1,4 @@
 import React from "react";
-import product from "../../../../assets/01.png";
-
 const SProfile = () => {
   return (
     <div className="container mt-5">
@@ -30,7 +28,7 @@ const SProfile = () => {
           >
             <div class="row card_row h-100">
               <div class="col-md-4 product_img1">
-                <img src={product} class="card-img" alt="..." />
+                <img src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img" alt="..." />
               </div>
               <div class="col-md-8 spotify_profile_body">
                 <div class="card-body">
