@@ -145,7 +145,6 @@
     }
 
     .saved_queue_container {
-        /* flex-direction: column-reverse; */
         margin-bottom: 80px;
     }
 
@@ -155,6 +154,14 @@
     .saved_queue_container {
         flex-direction: column-reverse;
         margin-bottom: 20px;
+    }
+}
+
+
+@media(min-width:767px) and (max-width:1190px) {
+    .saved_queue_container {
+        justify-content: center !important;
+        align-items: center !important;
     }
 }
 

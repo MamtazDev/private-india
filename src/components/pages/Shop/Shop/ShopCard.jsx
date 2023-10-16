@@ -18,11 +18,10 @@ const ShopCard = ({ item }) => {
       >
         <div className="sellix-card-image">
           <img src={item.img} class="card-img-top" alt="..." />
-          {/* <img src= {`../../../../assets/${item.img}`} class="card-img-top" alt="..." /> */}
         </div>
 
         <div class="card-body sellix-card-info">
-          <h5 class="card-title">{item.title}</h5>
+          <h5 class="card-title shop_card_title">{item.title}</h5>
           {item.price ? (
             <div
               class="sellix-card-description justify-content-between"

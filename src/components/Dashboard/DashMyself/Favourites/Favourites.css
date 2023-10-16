@@ -35,6 +35,21 @@
     margin-bottom: 24px;
 }
 
+.fav_header h3>span {
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px !important;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 24px;
+    background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .fav_header p {
     color: #fff;
     text-align: center;

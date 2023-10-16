@@ -6,7 +6,7 @@ const SProfile = () => {
     <div className="container mt-5">
       <div className="row ">
         <div className="col-lg-5 profile_section">
-          <h4>Spotify Profile</h4>
+          <h4><span>Spotify</span> Profile</h4>
           <button
             className="p-2 mt-2 mb-2"
             style={{ border: "none", borderRadius: "4px" }}

@@ -7,10 +7,7 @@
 .card {
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
     border: none;
-    /* background-color: #240d0d; */
     background-color:#342124;
-    /* color: #000; */
-    /* background-color: #342e2e; */
     padding: 20px;
 }
 
@@ -25,7 +22,7 @@
 
 .card-title {
     font-weight: 700 !important;
-    font-size: 16px;
+    font-size:20px;
     color: white;
 }
 .card-text{

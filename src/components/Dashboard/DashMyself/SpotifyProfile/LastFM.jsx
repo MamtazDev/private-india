@@ -8,7 +8,9 @@ const LastFM = () => {
         <div className="container mt-3">
           <div className="row">
             <div className="col-lg-5 profile_section">
-              <h4 className="mb-3">LastFM Profile</h4>
+              <h4 className="mb-3">
+                <span>LastFM</span> Profile
+              </h4>
 
               <p>Connect your Spotify account to access additional features.</p>
               <div className="sp_buttons mb-5">

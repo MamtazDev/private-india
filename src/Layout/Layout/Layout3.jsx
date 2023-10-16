@@ -15,12 +15,12 @@ const Layout3 = () => {
         </div>
         <Outlet className="w-full outlet_height outlet_bg_set" />
       </div> */}
-       <div class="w-100 ">
+       <div class="w-100 container-fluid">
         <div class="row">
-          <div class="col-1">
+          <div class="col-2">
             <Sidebar3 />
           </div>
-          <div class="col-11 mtop_100 outlet_bg_set">
+          <div class="col-10 mtop_100 outlet_bg_set">
             <Outlet />
           </div>
         </div>
