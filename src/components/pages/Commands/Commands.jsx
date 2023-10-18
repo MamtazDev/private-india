@@ -21,7 +21,7 @@ const Commands = () => {
               data-aos="fade-right"
               data-aos-duration="2000"
               className="tile sRadius command1 col-md-3"
-              style={{ backgroundColor: "#812d33" }}
+              // style={{ backgroundColor: "#812d33" }}
             >
               <div className="tile_title fs20">
                 <img
@@ -59,7 +59,7 @@ const Commands = () => {
               data-aos="fade-right"
               data-aos-duration="2000"
               className="col-md-3  tile sRadius"
-              style={{ backgroundColor: "#008d7f" }}
+              // style={{ backgroundColor: "#008d7f" }}
             >
               <div className="tile_title fs20">
                 <img
@@ -97,7 +97,7 @@ const Commands = () => {
               data-aos="fade-right"
               data-aos-duration="2000"
               className="col-md-3 tile sRadius"
-              style={{ backgroundColor: "#e91e63" }}
+              // style={{ backgroundColor: "#e91e63" }}
             >
               <div className="tile_title fs20">
                 <img
@@ -135,7 +135,7 @@ const Commands = () => {
               data-aos="fade-right"
               data-aos-duration="2000"
               className="col-md-3 tile sRadius "
-              style={{ backgroundColor: "#f05f3b" }}
+              // style={{ backgroundColor: "#f05f3b" }}
             >
               <div className="tile_title fs20">
                 <img
@@ -178,7 +178,7 @@ const Commands = () => {
               data-aos="fade-left"
               data-aos-duration="2000"
               className="tile sRadius command1 col-md-3 w-full"
-              style={{ backgroundColor: "#E2C52F" }}
+              // style={{ backgroundColor: "#E2C52F" }}
             >
               <div className="tile_title fs20">
                 <img
@@ -216,7 +216,7 @@ const Commands = () => {
               data-aos="fade-left"
               data-aos-duration="2000"
               className="col-md-3 tile sRadius"
-              style={{ backgroundColor: "#3CD23C" }}
+              // style={{ backgroundColor: "#3CD23C" }}
             >
               <div className="tile_title fs20">
                 <img
@@ -254,7 +254,7 @@ const Commands = () => {
               data-aos="fade-left"
               data-aos-duration="2000"
               className="col-md-3 tile sRadius"
-              style={{ backgroundColor: "#5A18BD" }}
+              // style={{ backgroundColor: "#5A18BD" }}
             >
               <div className="tile_title fs20">
                 <img
@@ -603,7 +603,7 @@ const Commands = () => {
             <li
               data-aos="fade-left"
               data-aos-duration="2000"
-              className="col-md-3 tile sRadius"
+              className="col-md-3"
               style={{ backgroundColor: "" }}
             ></li>
           </ul>

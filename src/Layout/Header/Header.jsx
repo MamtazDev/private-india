@@ -28,7 +28,7 @@ const Header = () => {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link
-                  className="nav-link active"
+                  className="nav-link"
                   style={{ fontWeight: 400 }}
                   aria-current="page"
                   to="/dashboard/overview"

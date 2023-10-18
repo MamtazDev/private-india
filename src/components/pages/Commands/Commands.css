@@ -5,7 +5,7 @@
 }
 
 .commands_bg {
-    background-color: #342124;
+    /* background-color: #231e1fb3; */
 
 }
 .bot_title{
@@ -124,6 +124,16 @@ a {
 .tWhite {
     color: #fff;
 }
+
+.tile{
+    background-color: rgba(65, 65, 65, 0.822);
+    background-image: linear-gradient(to right, #20085559 0%, #ff301491 100%);
+}
+
+.tile span, .tile ul li{
+    color: rgb(255, 255, 255) ;
+}
+
 
 @media(max-width:1024px) {
     .bots_tiles {

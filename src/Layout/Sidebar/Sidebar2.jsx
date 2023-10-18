@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import "./Sidebar.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import icon1 from "../../assets/fire.png";
 import icon2 from "../../assets/diamond.png";
 import icon3 from "../../assets/saves.png";
 import icon4 from "../../assets/star.png";
+
 const Sidebar2 = () => {
   const [sideCollapse, setSideCollapse] = useState(false);
   const [smallSideCollapse, setSmallSideCollapse] = useState(false);
+  const [isActive, setIsActive] = useState(false);
+  const [isPending, setIsPending] = useState(false);
 
   return (
     <div className="h-0">
@@ -51,7 +54,9 @@ const Sidebar2 = () => {
               sideCollapse ? "sidebar_collapse_profile" : "sidebar_profile"
             }`}
           ></div>
-          <Link to="/dashboard/overview" className="nav-option option1">
+          <NavLink to="/dashboard/overview" className={`nav-option option1 ${isActive ? "active" : ""} ${
+              isPending ? "pending" : ""
+            }`}>
             <p>
               <Link to="/dashboard/overview">
                 <i class="fa-solid fa-music"></i>
@@ -60,8 +65,10 @@ const Sidebar2 = () => {
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               <Link to="/dashboard/overview">Overview</Link>
             </h6>
-          </Link>
-          <Link to="/dashboard/spotify" className="nav-option option1">
+          </NavLink>
+          <NavLink to="/dashboard/spotify" className={`nav-option option1 ${isActive ? "active" : ""} ${
+              isPending ? "pending" : ""
+            }`}>
             <p>
               <Link to="/dashboard/spotify">
                 <i class="fa-solid fa-music"></i>
@@ -70,8 +77,10 @@ const Sidebar2 = () => {
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               <Link to="/dashboard/spotify">Spotify</Link>
             </h6>
-          </Link>
-          <Link to="/dashboard/lastfm" className="nav-option option1">
+          </NavLink>
+          <NavLink to="/dashboard/lastfm" className={`nav-option option1 ${isActive ? "active" : ""} ${
+              isPending ? "pending" : ""
+            }`}>
             <p>
               <Link to="/dashboard/lastfm">
                 <img src={icon1} alt="" />
@@ -80,18 +89,22 @@ const Sidebar2 = () => {
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               Last.fm
             </h6>
-          </Link>
-          <Link to="#" className="nav-option option1">
+          </NavLink>
+          <NavLink to="/" className={`nav-option option1 ${isActive ? "active" : ""} ${
+              isPending ? "pending" : ""
+            }`}>
             <p>
-              <Link to="#">
+              <Link to="">
                 <img src={icon2} alt="" />
               </Link>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               Premium
             </h6>
-          </Link>
-          <Link to="/dashboard/savedQues" className="nav-option option1">
+          </NavLink>
+          <NavLink to="/dashboard/savedQues" className={`nav-option option1 ${isActive ? "active" : ""} ${
+              isPending ? "pending" : ""
+            }`}>
             <p>
               <Link to="/dashboard/savedQues">
                 <img src={icon3} alt="" />
@@ -100,8 +113,10 @@ const Sidebar2 = () => {
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               <Link to="/dashboard/savedQues"> Saved Queues </Link>
             </h6>
-          </Link>
-          <Link to="/dashboard/favourites" className="nav-option option1">
+          </NavLink>
+          <NavLink to="/dashboard/favourites" className={`nav-option option1 ${isActive ? "active" : ""} ${
+              isPending ? "pending" : ""
+            }`}>
             <p>
               <Link to="/dashboard/favourites">
                 <img src={icon4} alt="" />
@@ -110,7 +125,7 @@ const Sidebar2 = () => {
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               <Link to="/dashboard/favourites">Favourites</Link>
             </h6>
-          </Link>
+          </NavLink>
         </div>
       </div>
     </div>

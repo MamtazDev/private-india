@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./Sidebar.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 const Sidebar3 = () => {
   const [sideCollapse, setSideCollapse] = useState(false);
   const [smallSideCollapse, setSmallSideCollapse] = useState(false);
+  const [isActive, setIsActive] = useState(false);
+  const [isPending, setIsPending] = useState(false);
 
   return (
     <div className="h-0">
@@ -42,30 +44,45 @@ const Sidebar3 = () => {
             </div>
           </div>
           {/* profile div */}
-          <Link to="/server/setting" className="nav-option option1">
+          <NavLink
+            to="/server/setting"
+            className={`nav-option option1 ${isActive ? "active" : ""} ${
+              isPending ? "pending" : ""
+            }`}
+          >
             <p>
               <i class="fa-solid fa-user"></i>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               Settings
             </h6>
-          </Link>
-          <Link to="/server/commands" className="nav-option option1">
+          </NavLink>
+          <NavLink
+            to="/server/commands"
+            className={`nav-option option1 ${isActive ? "active" : ""} ${
+              isPending ? "pending" : ""
+            }`}
+          >
             <p>
               <i class="fa-solid fa-server"></i>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               <Link to="/server/commands">Commands</Link>
             </h6>
-          </Link>
-          <Link to="#" className="nav-option option1">
+          </NavLink>
+          <NavLink
+            to="/"
+            className={`nav-option option1 ${isActive ? "active" : ""} ${
+              isPending ? "pending" : ""
+            }`}
+          >
             <p>
               <i class="fa-brands fa-product-hunt"></i>
             </p>
             <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
               Premium
             </h6>
-          </Link>
+          </NavLink>
         </div>
       </div>
     </div>
