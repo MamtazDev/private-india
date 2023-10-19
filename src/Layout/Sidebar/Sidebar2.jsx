@@ -14,7 +14,7 @@ const Sidebar2 = ({ setCollapse }) => {
 
   return (
     <div className="h-0">
-      <div className="sidebar_content">
+      <div className="sidebar_content not_collapse_sidebar_content">
         <div className="sidebar-container">
           <div className="sidebar_profile">
             <>
