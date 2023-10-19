@@ -1,37 +1,34 @@
 import React, { useState } from "react";
 import "./Sidebar.css";
-import { Link, NavLink } from "react-router-dom";
-import { IoIosArrowBack } from "react-icons/io";
 import profile from "../../assets/profile_cartoon.jpg";
-const Sidebar3 = ({ setCollapse }) => {
-  const [smallSideCollapse, setSmallSideCollapse] = useState(false);
+import { Link, NavLink } from "react-router-dom";
+import { IoIosArrowForward } from "react-icons/io";
+const SmallSidebar3 = ({ setCollapse }) => {
   const [isActive, setIsActive] = useState(false);
   const [isPending, setIsPending] = useState(false);
   return (
     <div className="h-0">
-      <div className="sidebar_content">
-        <div className="sidebar-container">
-          <div className="sidebar_profile">
-            <>
-              <div>
-                <img src={profile} alt="" />
-              </div>
-              <div className="text-center">
-                <small>MUSICIAN</small>
-                <br />
-              </div>
-            </>
-
-            <div className="logo">
+      <div className="sidebar_content collapse_sidebar_content">
+        <div>
+          <div>
+            <div className="collapse_logo logo">
               <div
-                onClick={(e) => setCollapse(true)}
-                className="largeDeviceIcon setCollapse"
+                onClick={(e) => setCollapse(false)}
+                className="largeDeviceIcon"
               >
-                <IoIosArrowBack />
+                <IoIosArrowForward />
               </div>
             </div>
           </div>
-
+          <>
+            <div className="sidebar_profile mt-2 mb-2">
+              <img src={profile} alt="" />
+            </div>
+            <div className="text-center">
+              <small>MUSICIAN</small>
+              <br />
+            </div>
+          </>
           <div className="hr_design" />
           <NavLink
             to="/server/setting"
@@ -42,9 +39,6 @@ const Sidebar3 = ({ setCollapse }) => {
             <p>
               <i class="fa-solid fa-user"></i>
             </p>
-            <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
-              Settings
-            </h6>
           </NavLink>
           <NavLink
             to="/server/commands"
@@ -55,9 +49,6 @@ const Sidebar3 = ({ setCollapse }) => {
             <p>
               <i class="fa-solid fa-server"></i>
             </p>
-            <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
-              <Link to="/server/commands">Commands</Link>
-            </h6>
           </NavLink>
           <NavLink
             to="/"
@@ -68,9 +59,6 @@ const Sidebar3 = ({ setCollapse }) => {
             <p>
               <i class="fa-brands fa-product-hunt"></i>
             </p>
-            <h6 className={smallSideCollapse ? "d_block" : "d_none"}>
-              Premium
-            </h6>
           </NavLink>
         </div>
       </div>
@@ -78,4 +66,4 @@ const Sidebar3 = ({ setCollapse }) => {
   );
 };
 
-export default Sidebar3;
+export default SmallSidebar3;

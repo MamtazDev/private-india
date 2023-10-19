@@ -28,7 +28,7 @@
 }
 
 .sidebar_profile img {
-    width:55px;
+    width: 55px;
     height: 50px;
     border-radius: 50%;
 }
@@ -40,7 +40,7 @@
     justify-content: space-around;
     align-items: center;
     gap: 20px;
-    padding: 0 26px;
+    padding: 20px 26px 0 !important;
 }
 
 .sidebar_profile p {
@@ -50,9 +50,11 @@
     padding-top: 8px;
     text-align: center;
 }
+
 .nav-option {
     padding: 16px 26px;
 }
+
 .largeDeviceIcon {
     text-align: end;
     background-color: #292323;
@@ -66,6 +68,7 @@
     align-items: center;
 
 }
+
 .collapse_largeDeviceIcon {
     text-align: end;
     background-color: #292323;
@@ -79,10 +82,12 @@
     align-items: center;
 
 }
-.hr_design{
+
+.hr_design {
     border-bottom: 1px solid rgb(119, 84, 84);
     margin: 25px 26px;
 }
+
 .nav-option:hover {
     border-width: 1px;
     border-style: solid;
@@ -91,13 +96,19 @@
     width: 100%;
     border-radius: 5px;
 }
+
 .navCollapse {
-    border-right: 3px solid;
-    border-image: linear-gradient(to right, #fd1d1d, #6a023b) 1;
+    border-right: 2px solid;
+    border-color: rgb(54 38 38);
+    ;
+}
+
+.nav_notCollapse {
+    border-right: 2px solid;
+    border-color: rgb(54 38 38);
 }
 
 .active {
-    /* background-color: #292323; */
     border-radius: 4px !important;
     border-left: 3px solid !important;
     border-image: linear-gradient(to right, #fd1d1d, #6a023b) 1 !important;
@@ -106,12 +117,30 @@
     border-right: 0 !important;
 }
 
+/* sidebar2 */
+.largeDeviceIcon2 {
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+    /* padding: 10px; */
+}
+
+.largeDeviceIcon3 {
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+    /* padding: 10px; */
+}
+
+/* sidebar2 */
+
+
 @media (min-width:768px) {
+
     .navCollapse {
         width: 80px;
         color: #fff;
         background-color: #131313;
-
     }
 
     .collapse_largeDeviceIcon {
@@ -152,6 +181,11 @@
     }
 }
 
+.sidebar-container {
+    width: 250px;
+    background: #131313;
+}
+
 @media (max-width:767px) {
     .sidebar_collapse_profile {
         text-align: center;
@@ -168,44 +202,40 @@
         color: #fff;
     }
 
+    .smallSidenotcollapsed {
+        width: 80px !important;
+    }
+
+    /* lksdfnhlkd */
+    .smallSidecollapsed {
+        width: 250px !important;
+    }
+
     .nav-option {
         width: auto;
         margin: auto;
     }
-
-    .d_block {
-        display: block;
-    }
-
-    .d_none {
-        display: none;
-
-    }
-
     .sidebar_content {
         width: 80px;
         height: 100vh !important;
         z-index: 100000000000000000000000000;
         position: relative;
     }
-
     .smallDeviceIcon {
         text-align: end;
-        padding: 15px;
-    }
-
-    .collapse_smalll {
-        text-align: center;
-        padding: 15px;
-    }
-
-    .largeDeviceIcon {
-        display: none;
+        background-color: #292323;
+        border-radius: 50%;
+        height: 30px;
+        border: 1px solid rgb(119, 84, 84);
+        cursor: pointer;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .smallNav {
         display: block;
-        width: 250px;
     }
 
 
@@ -213,15 +243,6 @@
         width: 60px;
         height: 60px;
     }
-
-    .sidebar_collapse_profile img {
-        width: 60px !important;
-        height: 60px;
-        border-radius: 50%;
-        margin: 10px 0px;
-
-    }
-
 
 }
 
@@ -232,5 +253,43 @@
 
 .nav-option:hover {
     background-color: #292323;
-    
+
+}
+
+.nav-option {
+    color: white;
+}
+
+.collapse_sidebar_content {
+    position: absolute;
+    top: 10%;
+    background-color: #131313;
+    width: 80px !important;
+}
+
+.collapse_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px !important;
+}
+
+.collapse_logo .largeDeviceIcon {
+    color: white;
+}
+
+.setCollapse {
+    color: white;
+}
+
+.sidebar_profile small {
+    color: white;
+}
+
+.sidebar_content {
+    background-color: #131313;
+}
+
+.collapse_sidebar_content small {
+    color: white;
 }
